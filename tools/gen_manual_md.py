@@ -1,5 +1,5 @@
 """
-Generate reference/010editor/manual_md/*.md from manual/*.htm (skip ' (1).htm' dupes).
+Generate reference/010editor/manual_md/*.md from manual/html/*.htm (skip ' (1).htm' dupes).
 """
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MAN = ROOT / "manual"
+MAN = ROOT / "manual" / "html"
 OUT = ROOT / "manual_md"
 
 
@@ -64,7 +64,7 @@ def main() -> None:
         lines: list[str] = [
             f"# {title}",
             "",
-            f"**Source:** [`manual/{p.name}`](../manual/{p.name}) "
+            f"**Source:** [`manual/html/{p.name}`](../manual/html/{p.name}) "
             "(SweetScape 010 Editor manual mirror).",
             "",
             "## Page header",
