@@ -1,6 +1,6 @@
 # 010 Editor Manual - Editing Drives
 
-**Source:** [`manual/EditingDrives.htm`](../manual/EditingDrives.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/EditingDrives.htm`](../html/EditingDrives.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Editing Drives

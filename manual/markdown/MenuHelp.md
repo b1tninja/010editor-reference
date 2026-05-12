@@ -1,6 +1,6 @@
 # 010 Editor Manual - Help Menu
 
-**Source:** [`manual/MenuHelp.htm`](../manual/MenuHelp.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuHelp.htm`](../html/MenuHelp.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Help Menu

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Inspector
 
-**Source:** [`manual/Inspector.htm`](../manual/Inspector.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Inspector.htm`](../html/Inspector.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Inspector

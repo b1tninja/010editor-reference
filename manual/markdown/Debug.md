@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Debugger
 
-**Source:** [`manual/Debug.htm`](../manual/Debug.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Debug.htm`](../html/Debug.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Debugger

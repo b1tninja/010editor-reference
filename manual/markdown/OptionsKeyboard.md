@@ -1,6 +1,6 @@
 # 010 Editor Manual - Shortcut Options
 
-**Source:** [`manual/OptionsKeyboard.htm`](../manual/OptionsKeyboard.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsKeyboard.htm`](../html/OptionsKeyboard.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Shortcut Options

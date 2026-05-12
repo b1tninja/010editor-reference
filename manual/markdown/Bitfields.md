@@ -1,6 +1,6 @@
 # 010 Editor Manual - Bitfields
 
-**Source:** [`manual/Bitfields.htm`](../manual/Bitfields.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Bitfields.htm`](../html/Bitfields.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Bitfields

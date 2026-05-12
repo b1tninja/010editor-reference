@@ -1,6 +1,6 @@
 # 010 Editor Manual - Character Set Options
 
-**Source:** [`manual/OptionsCharSets.htm`](../manual/OptionsCharSets.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsCharSets.htm`](../html/OptionsCharSets.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Character Set Options

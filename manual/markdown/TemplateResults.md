@@ -1,6 +1,6 @@
 # 010 Editor Manual - Working with Template Results
 
-**Source:** [`manual/TemplateResults.htm`](../manual/TemplateResults.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/TemplateResults.htm`](../html/TemplateResults.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Working with Template Results

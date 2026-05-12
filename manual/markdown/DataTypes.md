@@ -1,6 +1,6 @@
 # 010 Editor Manual - Data Types, Typedefs, and Enums
 
-**Source:** [`manual/DataTypes.htm`](../manual/DataTypes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/DataTypes.htm`](../html/DataTypes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Data Types, Typedefs, and Enums

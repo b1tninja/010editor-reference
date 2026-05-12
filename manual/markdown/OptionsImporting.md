@@ -1,6 +1,6 @@
 # 010 Editor Manual - Import/Export Options
 
-**Source:** [`manual/OptionsImporting.htm`](../manual/OptionsImporting.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsImporting.htm`](../html/OptionsImporting.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Import/Export Options

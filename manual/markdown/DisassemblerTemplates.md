@@ -1,6 +1,6 @@
 # 010 Editor Manual - Disassembly in Templates
 
-**Source:** [`manual/DisassemblerTemplates.htm`](../manual/DisassemblerTemplates.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/DisassemblerTemplates.htm`](../html/DisassemblerTemplates.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Disassembly in Templates

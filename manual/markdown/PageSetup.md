@@ -1,6 +1,6 @@
 # 010 Editor Manual - Page Setup
 
-**Source:** [`manual/PageSetup.htm`](../manual/PageSetup.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/PageSetup.htm`](../html/PageSetup.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Page Setup

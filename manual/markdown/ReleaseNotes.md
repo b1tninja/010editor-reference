@@ -1,6 +1,6 @@
 # 010 Editor Manual - Release Notes
 
-**Source:** [`manual/ReleaseNotes.htm`](../manual/ReleaseNotes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ReleaseNotes.htm`](../html/ReleaseNotes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Release Notes

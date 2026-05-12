@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Startup Page
 
-**Source:** [`manual/StartupPage.htm`](../manual/StartupPage.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/StartupPage.htm`](../html/StartupPage.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Startup Page

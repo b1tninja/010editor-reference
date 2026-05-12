@@ -1,6 +1,6 @@
 # 010 Editor Manual - Selecting a Range
 
-**Source:** [`manual/SelectRange.htm`](../manual/SelectRange.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/SelectRange.htm`](../html/SelectRange.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Selecting a Range

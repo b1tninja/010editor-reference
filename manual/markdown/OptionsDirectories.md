@@ -1,6 +1,6 @@
 # 010 Editor Manual - Directory Options
 
-**Source:** [`manual/OptionsDirectories.htm`](../manual/OptionsDirectories.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsDirectories.htm`](../html/OptionsDirectories.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Directory Options

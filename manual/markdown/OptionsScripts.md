@@ -1,6 +1,6 @@
 # 010 Editor Manual - Script Options
 
-**Source:** [`manual/OptionsScripts.htm`](../manual/OptionsScripts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsScripts.htm`](../html/OptionsScripts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Script Options

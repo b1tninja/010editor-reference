@@ -1,6 +1,6 @@
 # 010 Editor Manual - Editing Processes
 
-**Source:** [`manual/EditingProcesses.htm`](../manual/EditingProcesses.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/EditingProcesses.htm`](../html/EditingProcesses.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Editing Processes

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Writing Scripts
 
-**Source:** [`manual/IntroScripts.htm`](../manual/IntroScripts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/IntroScripts.htm`](../html/IntroScripts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Writing Scripts

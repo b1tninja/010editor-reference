@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Repository Dialog
 
-**Source:** [`manual/RepositoryDialog.htm`](../manual/RepositoryDialog.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryDialog.htm`](../html/RepositoryDialog.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Repository Dialog

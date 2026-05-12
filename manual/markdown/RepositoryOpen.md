@@ -1,6 +1,6 @@
 # 010 Editor Manual - Installing Files on Open from the Repository
 
-**Source:** [`manual/RepositoryOpen.htm`](../manual/RepositoryOpen.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryOpen.htm`](../html/RepositoryOpen.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Installing Files on Open from the Repository

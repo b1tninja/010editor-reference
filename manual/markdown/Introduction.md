@@ -1,6 +1,6 @@
 # 010 Editor Manual - What is 010 Editor?
 
-**Source:** [`manual/Introduction.htm`](../manual/Introduction.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Introduction.htm`](../html/Introduction.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 _(none extracted)_

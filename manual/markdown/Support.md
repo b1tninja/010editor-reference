@@ -1,6 +1,6 @@
 # 010 Editor Manual - How to Get Support
 
-**Source:** [`manual/Support.htm`](../manual/Support.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Support.htm`](../html/Support.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 How To Get Support

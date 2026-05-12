@@ -1,6 +1,6 @@
 # 010 Editor Manual - Expressions
 
-**Source:** [`manual/Expressions.htm`](../manual/Expressions.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Expressions.htm`](../html/Expressions.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Expressions

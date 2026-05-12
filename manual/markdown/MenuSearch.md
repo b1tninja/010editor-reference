@@ -1,6 +1,6 @@
 # 010 Editor Manual - Find Menu
 
-**Source:** [`manual/MenuSearch.htm`](../manual/MenuSearch.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuSearch.htm`](../html/MenuSearch.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Find Menu

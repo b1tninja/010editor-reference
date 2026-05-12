@@ -1,6 +1,6 @@
 # 010 Editor Manual - Writing Templates
 
-**Source:** [`manual/IntroTemplates.htm`](../manual/IntroTemplates.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/IntroTemplates.htm`](../html/IntroTemplates.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Writing Templates

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Inserting or Overwriting Files
 
-**Source:** [`manual/InsertFiles.htm`](../manual/InsertFiles.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/InsertFiles.htm`](../html/InsertFiles.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Inserting or Overwriting Files

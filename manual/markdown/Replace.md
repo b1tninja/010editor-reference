@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Replace
 
-**Source:** [`manual/Replace.htm`](../manual/Replace.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Replace.htm`](../html/Replace.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Replace

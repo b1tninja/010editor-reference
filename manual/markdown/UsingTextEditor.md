@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Text Editor
 
-**Source:** [`manual/UsingTextEditor.htm`](../manual/UsingTextEditor.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/UsingTextEditor.htm`](../html/UsingTextEditor.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Text Editor

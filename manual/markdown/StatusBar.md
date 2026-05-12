@@ -1,6 +1,6 @@
 # 010 Editor Manual - Status Bar
 
-**Source:** [`manual/StatusBar.htm`](../manual/StatusBar.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/StatusBar.htm`](../html/StatusBar.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Status Bar

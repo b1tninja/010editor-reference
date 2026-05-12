@@ -1,6 +1,6 @@
 # 010 Editor Manual - Saving Files
 
-**Source:** [`manual/SavingFiles.htm`](../manual/SavingFiles.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/SavingFiles.htm`](../html/SavingFiles.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Saving Files

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Hex Editor
 
-**Source:** [`manual/UsingHexEditor.htm`](../manual/UsingHexEditor.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/UsingHexEditor.htm`](../html/UsingHexEditor.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Hex Editor

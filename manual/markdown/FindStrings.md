@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Find Strings
 
-**Source:** [`manual/FindStrings.htm`](../manual/FindStrings.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FindStrings.htm`](../html/FindStrings.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Find Strings

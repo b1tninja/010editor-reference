@@ -1,6 +1,6 @@
 # 010 Editor Manual - Scripts Menu
 
-**Source:** [`manual/MenuScripts.htm`](../manual/MenuScripts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuScripts.htm`](../html/MenuScripts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Scripts Menu

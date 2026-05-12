@@ -1,6 +1,6 @@
 # 010 Editor - Manual
 
-**Source:** [`manual/download.htm`](../manual/download.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/download.htm`](../html/download.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 _(none extracted)_

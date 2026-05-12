@@ -1,6 +1,6 @@
 # 010 Editor Manual - Control Statements
 
-**Source:** [`manual/ControlStatements.htm`](../manual/ControlStatements.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ControlStatements.htm`](../html/ControlStatements.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Control Statements

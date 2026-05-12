@@ -1,6 +1,6 @@
 # 010 Editor Manual - Select Menu
 
-**Source:** [`manual/MenuSelect.htm`](../manual/MenuSelect.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuSelect.htm`](../html/MenuSelect.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Select Menu

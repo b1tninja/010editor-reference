@@ -1,6 +1,6 @@
 # 010 Editor Manual - Font Options
 
-**Source:** [`manual/OptionsFonts.htm`](../manual/OptionsFonts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsFonts.htm`](../html/OptionsFonts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Font Options

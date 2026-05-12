@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Paste Special
 
-**Source:** [`manual/PasteSpecial.htm`](../manual/PasteSpecial.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/PasteSpecial.htm`](../html/PasteSpecial.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Paste Special

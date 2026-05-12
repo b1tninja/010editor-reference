@@ -1,6 +1,6 @@
 # 010 Editor Manual - Hex Editor Options
 
-**Source:** [`manual/OptionsHexEditor.htm`](../manual/OptionsHexEditor.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsHexEditor.htm`](../html/OptionsHexEditor.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Hex Editor Options

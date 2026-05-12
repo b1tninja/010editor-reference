@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Bookmarks
 
-**Source:** [`manual/Bookmarks.htm`](../manual/Bookmarks.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Bookmarks.htm`](../html/Bookmarks.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Bookmarks

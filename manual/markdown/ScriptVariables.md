@@ -1,6 +1,6 @@
 # 010 Editor Manual - Declaring Script Variables
 
-**Source:** [`manual/ScriptVariables.htm`](../manual/ScriptVariables.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ScriptVariables.htm`](../html/ScriptVariables.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Declaring Script Variables

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Setting the File Size
 
-**Source:** [`manual/SetFileSize.htm`](../manual/SetFileSize.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/SetFileSize.htm`](../html/SetFileSize.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Setting the File Size

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Projects and Workspaces
 
-**Source:** [`manual/Project.htm`](../manual/Project.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Project.htm`](../html/Project.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Projects and Workspaces

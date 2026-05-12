@@ -1,6 +1,6 @@
 # 010 Editor Manual - Tools Menu
 
-**Source:** [`manual/MenuTools.htm`](../manual/MenuTools.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuTools.htm`](../html/MenuTools.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Tools Menu

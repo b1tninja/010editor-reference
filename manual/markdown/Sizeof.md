@@ -1,6 +1,6 @@
 # 010 Editor Manual - Special Keywords
 
-**Source:** [`manual/Sizeof.htm`](../manual/Sizeof.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Sizeof.htm`](../html/Sizeof.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Special Keywords

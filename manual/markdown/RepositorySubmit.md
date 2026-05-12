@@ -1,6 +1,6 @@
 # 010 Editor Manual - Submitting Files to the Repository
 
-**Source:** [`manual/RepositorySubmit.htm`](../manual/RepositorySubmit.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositorySubmit.htm`](../html/RepositorySubmit.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Submitting Files to the Repository

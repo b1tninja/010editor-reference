@@ -1,6 +1,6 @@
 # 010 Editor Manual - Running Templates and Scripts
 
-**Source:** [`manual/Running.htm`](../manual/Running.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Running.htm`](../html/Running.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Running Templates and Scripts

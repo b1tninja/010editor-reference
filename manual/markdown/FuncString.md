@@ -1,6 +1,6 @@
 # 010 Editor Manual - String Functions
 
-**Source:** [`manual/FuncString.htm`](../manual/FuncString.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FuncString.htm`](../html/FuncString.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 String Functions

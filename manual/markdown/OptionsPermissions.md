@@ -1,6 +1,6 @@
 # 010 Editor Manual - Permission Options
 
-**Source:** [`manual/OptionsPermissions.htm`](../manual/OptionsPermissions.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsPermissions.htm`](../html/OptionsPermissions.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Permission Options

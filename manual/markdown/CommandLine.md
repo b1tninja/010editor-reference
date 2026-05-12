@@ -1,6 +1,6 @@
 # 010 Editor Manual - Command Line Parameters
 
-**Source:** [`manual/CommandLine.htm`](../manual/CommandLine.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/CommandLine.htm`](../html/CommandLine.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Command Line Parameters

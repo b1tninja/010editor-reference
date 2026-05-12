@@ -1,6 +1,6 @@
 # 010 Editor Manual - Selecting Bytes
 
-**Source:** [`manual/SelectingBytes.htm`](../manual/SelectingBytes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/SelectingBytes.htm`](../html/SelectingBytes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Selecting Bytes

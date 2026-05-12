@@ -1,6 +1,6 @@
 # 010 Editor Manual - Edit As Options
 
-**Source:** [`manual/OptionsInterfaces.htm`](../manual/OptionsInterfaces.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsInterfaces.htm`](../html/OptionsInterfaces.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Edit As Options

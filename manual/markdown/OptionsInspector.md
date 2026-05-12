@@ -1,6 +1,6 @@
 # 010 Editor Manual - Inspector/Tables Options
 
-**Source:** [`manual/OptionsInspector.htm`](../manual/OptionsInspector.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsInspector.htm`](../html/OptionsInspector.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Inspector/Tables Options

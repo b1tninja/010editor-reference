@@ -1,6 +1,6 @@
 # 010 Editor Manual - Format Menu
 
-**Source:** [`manual/MenuFormat.htm`](../manual/MenuFormat.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuFormat.htm`](../html/MenuFormat.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Format Menu

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Opening Files/Tabs Options
 
-**Source:** [`manual/OptionsOpening.htm`](../manual/OptionsOpening.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsOpening.htm`](../html/OptionsOpening.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Opening Files/Tabs Options

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Printing
 
-**Source:** [`manual/Printing.htm`](../manual/Printing.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Printing.htm`](../html/Printing.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Printing

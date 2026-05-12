@@ -1,5 +1,8 @@
 """
-Generate reference/010editor/manual_md/*.md from manual/html/*.htm (skip ' (1).htm' dupes).
+Generate manual/markdown/*.md from manual/html/*.htm (skip ' (1).htm' dupes).
+
+Output is written in-place to manual/markdown/, refreshing the existing curated
+mirror instead of producing a parallel directory.
 """
 from __future__ import annotations
 
@@ -9,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MAN = ROOT / "manual" / "html"
-OUT = ROOT / "manual_md"
+OUT = ROOT / "manual" / "markdown"
 
 
 def strip_tags(s: str) -> str:
@@ -64,7 +67,7 @@ def main() -> None:
         lines: list[str] = [
             f"# {title}",
             "",
-            f"**Source:** [`manual/html/{p.name}`](../manual/html/{p.name}) "
+            f"**Source:** [`manual/html/{p.name}`](../html/{p.name}) "
             "(SweetScape 010 Editor manual mirror).",
             "",
             "## Page header",

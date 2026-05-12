@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to Templates and Scripts
 
-**Source:** [`manual/IntroTempScripts.htm`](../manual/IntroTempScripts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/IntroTempScripts.htm`](../html/IntroTempScripts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to Templates and Scripts

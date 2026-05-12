@@ -1,6 +1,6 @@
 # 010 Editor Manual - Text Editor Options
 
-**Source:** [`manual/OptionsTextEditor.htm`](../manual/OptionsTextEditor.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsTextEditor.htm`](../html/OptionsTextEditor.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Text Editor Options

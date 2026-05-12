@@ -1,6 +1,6 @@
 # 010 Editor Manual - Converting Files
 
-**Source:** [`manual/Convert.htm`](../manual/Convert.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Convert.htm`](../html/Convert.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Converting Files

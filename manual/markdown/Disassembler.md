@@ -1,6 +1,6 @@
 # 010 Editor Manual - Disassembler
 
-**Source:** [`manual/Disassembler.htm`](../manual/Disassembler.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Disassembler.htm`](../html/Disassembler.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Disassembler

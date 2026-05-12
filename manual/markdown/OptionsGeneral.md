@@ -1,6 +1,6 @@
 # 010 Editor Manual - General Options
 
-**Source:** [`manual/OptionsGeneral.htm`](../manual/OptionsGeneral.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsGeneral.htm`](../html/OptionsGeneral.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 General Options

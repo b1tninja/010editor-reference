@@ -1,6 +1,6 @@
 # 010 Editor Manual - Menu Options
 
-**Source:** [`manual/OptionsMenus.htm`](../manual/OptionsMenus.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsMenus.htm`](../html/OptionsMenus.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Menu Options

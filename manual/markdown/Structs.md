@@ -1,6 +1,6 @@
 # 010 Editor Manual - Structs and Unions
 
-**Source:** [`manual/Structs.htm`](../manual/Structs.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Structs.htm`](../html/Structs.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Structs and Unions

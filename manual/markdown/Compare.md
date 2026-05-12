@@ -1,6 +1,6 @@
 # 010 Editor Manual - Comparing Files
 
-**Source:** [`manual/Compare.htm`](../manual/Compare.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Compare.htm`](../html/Compare.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Comparing Files

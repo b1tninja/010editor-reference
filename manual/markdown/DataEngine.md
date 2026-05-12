@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to the Data Engine
 
-**Source:** [`manual/DataEngine.htm`](../manual/DataEngine.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/DataEngine.htm`](../html/DataEngine.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to the Data Engine

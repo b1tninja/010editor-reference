@@ -1,7 +1,5 @@
 # 010 Editor manual — Markdown mirrors
 
-See **[MANUAL_MIRROR.md](MANUAL_MIRROR.md)** for how these files are produced and what they omit.
-
 Generated summaries for **141** canonical `.htm` pages (duplicate ` (1).htm` copies omitted).
 
 Each file lists **section headings** and **lead paragraphs**; open the HTML for complete content.

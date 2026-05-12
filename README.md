@@ -6,23 +6,25 @@ Standalone repository containing 010editor binary template documentation, user m
 
 ```
 010editor-reference/
-├── documentation/          # Template and scripting documentation
-│   ├── 010_TEMPLATE_AND_SCRIPTING.md
-│   ├── scripts.md
-│   └── templates.md
-├── manual/                 # Complete 010editor user manual
-│   ├── *.htm               # HTML format (original)
-│   └── markdown/           # Markdown equivalents
-├── tools/                  # Helper scripts
-│   └── gen_manual_md.py    # Script to generate markdown from HTML
+├── 010_TEMPLATE_AND_SCRIPTING.md  # Short cheat sheet (templates + scripts)
+├── templates.md                   # Binary Templates (.bt) hub index
+├── scripts.md                     # Scripts (.1sc) hub index
+├── SKILL.md                       # Agent skill entry point
+├── manual/                        # Complete 010editor user manual
+│   ├── html/                      # HTML format (original *.htm files)
+│   └── markdown/                  # Per-page Markdown summaries
+├── tools/                         # Helper scripts
+│   └── gen_manual_md.py           # Regenerates manual/markdown from manual/html
 └── README.md
 ```
 
 ## Contents
 
-### Documentation
-- Template usage guides and scripting references
-- API documentation for binary template development
+### Hub documentation (repo root)
+- `templates.md` — Binary Templates (`.bt`) language and runtime index.
+- `scripts.md` — Scripting engine (`.1sc`) index.
+- `010_TEMPLATE_AND_SCRIPTING.md` — Short cheat sheet covering both surfaces.
+- `SKILL.md` — Entry point for the 010bt agent skill.
 
 ### User Manual
 - Complete HTML user manual covering all 010editor features
@@ -30,7 +32,7 @@ Standalone repository containing 010editor binary template documentation, user m
 - ~282 HTML pages and ~143 markdown pages
 
 ### Tools
-- `gen_manual_md.py` — Utility for converting HTML manual to markdown format
+- `gen_manual_md.py` — Regenerates `manual/markdown/*.md` summaries in place from `manual/html/*.htm` (`(1).htm` duplicates are skipped). Re-run after refreshing the HTML mirror; it overwrites existing files rather than creating a parallel directory.
 
 ## Source
 

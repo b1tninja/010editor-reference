@@ -1,6 +1,6 @@
 # 010 Editor Manual - Histograms/Entropy
 
-**Source:** [`manual/Histograms.htm`](../manual/Histograms.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Histograms.htm`](../html/Histograms.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Histograms/Entropy

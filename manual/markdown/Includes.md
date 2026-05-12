@@ -1,6 +1,6 @@
 # 010 Editor Manual - Includes
 
-**Source:** [`manual/Includes.htm`](../manual/Includes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Includes.htm`](../html/Includes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Includes

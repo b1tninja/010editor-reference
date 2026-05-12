@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Find
 
-**Source:** [`manual/Find.htm`](../manual/Find.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Find.htm`](../html/Find.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Find

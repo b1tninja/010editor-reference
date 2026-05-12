@@ -1,6 +1,6 @@
 # 010 Editor Manual - What's New in Version 16.0?
 
-**Source:** [`manual/WhatsNew.htm`](../manual/WhatsNew.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/WhatsNew.htm`](../html/WhatsNew.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 What's new in Version 16.0?

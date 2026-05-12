@@ -1,6 +1,6 @@
 # 010 Editor Manual - View Menu
 
-**Source:** [`manual/MenuView.htm`](../manual/MenuView.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuView.htm`](../html/MenuView.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 View Menu

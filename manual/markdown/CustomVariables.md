@@ -1,6 +1,6 @@
 # 010 Editor Manual - Custom Variables
 
-**Source:** [`manual/CustomVariables.htm`](../manual/CustomVariables.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/CustomVariables.htm`](../html/CustomVariables.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Custom Variables

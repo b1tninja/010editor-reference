@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to Editing
 
-**Source:** [`manual/IntroEditing.htm`](../manual/IntroEditing.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/IntroEditing.htm`](../html/IntroEditing.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to Editing

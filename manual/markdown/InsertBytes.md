@@ -1,6 +1,6 @@
 # 010 Editor Manual - Inserting or Overwriting Bytes
 
-**Source:** [`manual/InsertBytes.htm`](../manual/InsertBytes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/InsertBytes.htm`](../html/InsertBytes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Inserting or Overwriting Bytes

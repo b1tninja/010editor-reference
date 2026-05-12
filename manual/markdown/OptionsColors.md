@@ -1,6 +1,6 @@
 # 010 Editor Manual - Theme/Color Options
 
-**Source:** [`manual/OptionsColors.htm`](../manual/OptionsColors.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsColors.htm`](../html/OptionsColors.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Theme/Color Options

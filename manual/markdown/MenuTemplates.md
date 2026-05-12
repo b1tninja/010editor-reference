@@ -1,6 +1,6 @@
 # 010 Editor Manual - Templates Menu
 
-**Source:** [`manual/MenuTemplates.htm`](../manual/MenuTemplates.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuTemplates.htm`](../html/MenuTemplates.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Templates Menu

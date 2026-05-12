@@ -1,6 +1,6 @@
 # Local 010 Editor manual mirror
 
-This directory contains **Markdown summaries** for each canonical **`../manual/*.htm`** page (SweetScape 010 Editor documentation, as captured in the repo).
+This directory contains **Markdown summaries** for each canonical **`../manual/html/*.htm`** page (SweetScape 010 Editor documentation, as captured in the repo).
 
 ## What each `.md` contains
 
@@ -15,7 +15,7 @@ This directory contains **Markdown summaries** for each canonical **`../manual/*
 From the repository root:
 
 ```powershell
-python reference/010editor/tools/gen_manual_md.py
+python tools/gen_manual_md.py
 ```
 
 Duplicate pages named `Something (1).htm` are skipped; the canonical file is `Something.htm`.

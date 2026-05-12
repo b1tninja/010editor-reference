@@ -1,6 +1,6 @@
 # 010 Editor Manual - Calculator
 
-**Source:** [`manual/Calculator.htm`](../manual/Calculator.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Calculator.htm`](../html/Calculator.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Calculator

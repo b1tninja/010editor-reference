@@ -1,6 +1,6 @@
 # 010 Editor Manual - Interface Functions
 
-**Source:** [`manual/FuncInterface.htm`](../manual/FuncInterface.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FuncInterface.htm`](../html/FuncInterface.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Interface Functions

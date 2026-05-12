@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Dock Windows
 
-**Source:** [`manual/DockWindows.htm`](../manual/DockWindows.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/DockWindows.htm`](../html/DockWindows.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Dock Windows

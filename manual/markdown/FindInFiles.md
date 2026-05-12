@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Find in Files
 
-**Source:** [`manual/FindInFiles.htm`](../manual/FindInFiles.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FindInFiles.htm`](../html/FindInFiles.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Find in Files

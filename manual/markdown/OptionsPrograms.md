@@ -1,6 +1,6 @@
 # 010 Editor Manual - Program Options
 
-**Source:** [`manual/OptionsPrograms.htm`](../manual/OptionsPrograms.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsPrograms.htm`](../html/OptionsPrograms.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Program Options

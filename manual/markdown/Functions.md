@@ -1,6 +1,6 @@
 # 010 Editor Manual - Functions
 
-**Source:** [`manual/Functions.htm`](../manual/Functions.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Functions.htm`](../html/Functions.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Functions

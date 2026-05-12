@@ -1,6 +1,6 @@
 # 010 Editor Manual - Debug Menu
 
-**Source:** [`manual/MenuDebug.htm`](../manual/MenuDebug.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuDebug.htm`](../html/MenuDebug.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Debug Menu

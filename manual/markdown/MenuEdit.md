@@ -1,6 +1,6 @@
 # 010 Editor Manual - Edit Menu
 
-**Source:** [`manual/MenuEdit.htm`](../manual/MenuEdit.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuEdit.htm`](../html/MenuEdit.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Edit Menu

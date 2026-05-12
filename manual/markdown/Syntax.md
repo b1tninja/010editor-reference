@@ -1,6 +1,6 @@
 # 010 Editor Manual - Syntax Highlighting
 
-**Source:** [`manual/Syntax.htm`](../manual/Syntax.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Syntax.htm`](../html/Syntax.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Syntax Highlighting

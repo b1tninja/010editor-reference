@@ -1,6 +1,6 @@
 # 010 Editor Manual - External (DLL) Functions
 
-**Source:** [`manual/ScriptDLL.htm`](../manual/ScriptDLL.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ScriptDLL.htm`](../html/ScriptDLL.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 External (DLL) Functions

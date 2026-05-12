@@ -1,6 +1,6 @@
 # 010 Editor Manual - Writing Template Syntaxes
 
-**Source:** [`manual/WritingSyntaxes.htm`](../manual/WritingSyntaxes.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/WritingSyntaxes.htm`](../html/WritingSyntaxes.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Writing Template Syntaxes

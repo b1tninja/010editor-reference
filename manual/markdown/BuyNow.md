@@ -1,6 +1,6 @@
 # 010 Editor Manual - How to Buy 010 Editor
 
-**Source:** [`manual/BuyNow.htm`](../manual/BuyNow.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/BuyNow.htm`](../html/BuyNow.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 How to Buy 010 Editor

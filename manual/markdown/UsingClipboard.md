@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Clipboard
 
-**Source:** [`manual/UsingClipboard.htm`](../manual/UsingClipboard.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/UsingClipboard.htm`](../html/UsingClipboard.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Clipboard

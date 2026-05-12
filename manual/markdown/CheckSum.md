@@ -1,6 +1,6 @@
 # 010 Editor Manual - Check Sum/Hash Algorithms
 
-**Source:** [`manual/CheckSum.htm`](../manual/CheckSum.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/CheckSum.htm`](../html/CheckSum.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Check Sum/Hash Algorithms

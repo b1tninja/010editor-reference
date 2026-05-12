@@ -1,6 +1,6 @@
 # 010 Editor Manual - Notes for Users of 010 Editor v10
 
-**Source:** [`manual/PreviousVersions.htm`](../manual/PreviousVersions.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/PreviousVersions.htm`](../html/PreviousVersions.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Notes for Users of 010 Editor v10

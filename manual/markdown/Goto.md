@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Goto
 
-**Source:** [`manual/Goto.htm`](../manual/Goto.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Goto.htm`](../html/Goto.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Goto

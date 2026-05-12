@@ -1,6 +1,6 @@
 # 010 Editor Manual - File Properties
 
-**Source:** [`manual/Properties.htm`](../manual/Properties.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Properties.htm`](../html/Properties.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 File Properties

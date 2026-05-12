@@ -1,6 +1,6 @@
 # 010 Editor Manual - On-Demand Structures
 
-**Source:** [`manual/OnDemand.htm`](../manual/OnDemand.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OnDemand.htm`](../html/OnDemand.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 On-Demand Structures

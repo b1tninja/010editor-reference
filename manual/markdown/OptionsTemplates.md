@@ -1,6 +1,6 @@
 # 010 Editor Manual - Template Options
 
-**Source:** [`manual/OptionsTemplates.htm`](../manual/OptionsTemplates.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsTemplates.htm`](../html/OptionsTemplates.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Template Options

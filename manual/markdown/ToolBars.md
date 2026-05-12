@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Tool Bars
 
-**Source:** [`manual/ToolBars.htm`](../manual/ToolBars.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ToolBars.htm`](../html/ToolBars.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Tool Bars

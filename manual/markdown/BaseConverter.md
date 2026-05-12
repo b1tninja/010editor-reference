@@ -1,6 +1,6 @@
 # 010 Editor Manual - Base Converter
 
-**Source:** [`manual/BaseConverter.htm`](../manual/BaseConverter.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/BaseConverter.htm`](../html/BaseConverter.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Base Converter

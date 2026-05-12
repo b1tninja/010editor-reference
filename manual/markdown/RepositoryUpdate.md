@@ -1,6 +1,6 @@
 # 010 Editor Manual - Updating the Repository
 
-**Source:** [`manual/RepositoryUpdate.htm`](../manual/RepositoryUpdate.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryUpdate.htm`](../html/RepositoryUpdate.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Updating the Repository

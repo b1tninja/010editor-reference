@@ -1,6 +1,6 @@
 # 010 Editor Manual - License Agreement
 
-**Source:** [`manual/License.htm`](../manual/License.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/License.htm`](../html/License.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 License Agreement

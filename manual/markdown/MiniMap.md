@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Mini Map
 
-**Source:** [`manual/MiniMap.htm`](../manual/MiniMap.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MiniMap.htm`](../html/MiniMap.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Mini Map

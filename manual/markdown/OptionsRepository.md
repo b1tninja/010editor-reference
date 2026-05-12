@@ -1,6 +1,6 @@
 # 010 Editor Manual - Repository Options
 
-**Source:** [`manual/OptionsRepository.htm`](../manual/OptionsRepository.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsRepository.htm`](../html/OptionsRepository.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Repository Options

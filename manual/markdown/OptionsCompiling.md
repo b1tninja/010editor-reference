@@ -1,6 +1,6 @@
 # 010 Editor Manual - Compiling Options
 
-**Source:** [`manual/OptionsCompiling.htm`](../manual/OptionsCompiling.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsCompiling.htm`](../html/OptionsCompiling.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Compiling Options

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Updating and Merging Files
 
-**Source:** [`manual/RepositoryMerge.htm`](../manual/RepositoryMerge.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryMerge.htm`](../html/RepositoryMerge.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Updating and Merging Files

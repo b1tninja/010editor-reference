@@ -1,6 +1,6 @@
 # 010 Editor Manual - Hex Operations
 
-**Source:** [`manual/Operations.htm`](../manual/Operations.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Operations.htm`](../html/Operations.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Hex Operations

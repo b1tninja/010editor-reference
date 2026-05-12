@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Tables
 
-**Source:** [`manual/Tables.htm`](../manual/Tables.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Tables.htm`](../html/Tables.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Tables

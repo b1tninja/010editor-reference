@@ -1,6 +1,6 @@
 # 010 Editor Manual - I/O Functions
 
-**Source:** [`manual/FuncIO.htm`](../manual/FuncIO.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FuncIO.htm`](../html/FuncIO.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 I/O Functions

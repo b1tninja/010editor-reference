@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Column Mode
 
-**Source:** [`manual/ColumnMode.htm`](../manual/ColumnMode.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ColumnMode.htm`](../html/ColumnMode.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Column Mode

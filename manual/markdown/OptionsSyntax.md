@@ -1,6 +1,6 @@
 # 010 Editor Manual - Syntax Options
 
-**Source:** [`manual/OptionsSyntax.htm`](../manual/OptionsSyntax.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsSyntax.htm`](../html/OptionsSyntax.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Syntax Options

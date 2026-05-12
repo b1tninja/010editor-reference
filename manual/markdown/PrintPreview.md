@@ -1,6 +1,6 @@
 # 010 Editor Manual - Print Preview
 
-**Source:** [`manual/PrintPreview.htm`](../manual/PrintPreview.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/PrintPreview.htm`](../html/PrintPreview.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Print Preview

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Regular Expressions
 
-**Source:** [`manual/RegularExpressions.htm`](../manual/RegularExpressions.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RegularExpressions.htm`](../html/RegularExpressions.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Regular Expressions

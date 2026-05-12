@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Portable Version
 
-**Source:** [`manual/Portable.htm`](../manual/Portable.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Portable.htm`](../html/Portable.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Portable Version

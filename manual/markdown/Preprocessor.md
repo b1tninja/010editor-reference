@@ -1,6 +1,6 @@
 # 010 Editor Manual - Preprocessor
 
-**Source:** [`manual/Preprocessor.htm`](../manual/Preprocessor.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Preprocessor.htm`](../html/Preprocessor.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Preprocessor

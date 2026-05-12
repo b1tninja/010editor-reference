@@ -1,6 +1,6 @@
 # 010 Editor Manual - File Menu
 
-**Source:** [`manual/MenuFile.htm`](../manual/MenuFile.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuFile.htm`](../html/MenuFile.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 File Menu

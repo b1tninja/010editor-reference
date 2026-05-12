@@ -1,6 +1,6 @@
 # 010 Editor Manual - Backup Options
 
-**Source:** [`manual/OptionsBackups.htm`](../manual/OptionsBackups.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsBackups.htm`](../html/OptionsBackups.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Backup Options

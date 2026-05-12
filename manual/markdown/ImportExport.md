@@ -1,6 +1,6 @@
 # 010 Editor Manual - Importing/Exporting Files
 
-**Source:** [`manual/ImportExport.htm`](../manual/ImportExport.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ImportExport.htm`](../html/ImportExport.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Importing/Exporting Files

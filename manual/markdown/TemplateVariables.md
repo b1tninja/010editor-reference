@@ -1,6 +1,6 @@
 # 010 Editor Manual - Declaring Template Variables
 
-**Source:** [`manual/TemplateVariables.htm`](../manual/TemplateVariables.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/TemplateVariables.htm`](../html/TemplateVariables.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Declaring Template Variables

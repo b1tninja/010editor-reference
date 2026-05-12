@@ -1,6 +1,6 @@
 # 010 Editor Manual - Writing Tree-sitter Syntaxes
 
-**Source:** [`manual/WritingTreesitter.htm`](../manual/WritingTreesitter.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/WritingTreesitter.htm`](../html/WritingTreesitter.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Writing Tree-sitter Syntaxes

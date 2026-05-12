@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Replace in Files
 
-**Source:** [`manual/ReplaceInFiles.htm`](../manual/ReplaceInFiles.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ReplaceInFiles.htm`](../html/ReplaceInFiles.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Replace in Files

@@ -1,6 +1,6 @@
 # 010 Editor Manual - File Dialog Options
 
-**Source:** [`manual/OptionsFileDialogs.htm`](../manual/OptionsFileDialogs.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsFileDialogs.htm`](../html/OptionsFileDialogs.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 File Dialog Options

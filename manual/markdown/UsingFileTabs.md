@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using File Tabs
 
-**Source:** [`manual/UsingFileTabs.htm`](../manual/UsingFileTabs.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/UsingFileTabs.htm`](../html/UsingFileTabs.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using File Tabs

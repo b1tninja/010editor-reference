@@ -1,6 +1,6 @@
 # 010 Editor Manual - Arrays, Duplicates, and Optimizing
 
-**Source:** [`manual/ArraysDuplicates.htm`](../manual/ArraysDuplicates.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ArraysDuplicates.htm`](../html/ArraysDuplicates.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Arrays, Duplicates, and Optimizing

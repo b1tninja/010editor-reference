@@ -1,6 +1,6 @@
 # 010 Editor Manual - Cache Options
 
-**Source:** [`manual/OptionsCache.htm`](../manual/OptionsCache.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsCache.htm`](../html/OptionsCache.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Cache Options

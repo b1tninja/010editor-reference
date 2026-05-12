@@ -1,6 +1,6 @@
 # 010 Editor Manual - Strings
 
-**Source:** [`manual/ArraysStrings.htm`](../manual/ArraysStrings.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ArraysStrings.htm`](../html/ArraysStrings.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Strings

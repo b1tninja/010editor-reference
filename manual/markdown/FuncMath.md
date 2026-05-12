@@ -1,6 +1,6 @@
 # 010 Editor Manual - Math Functions
 
-**Source:** [`manual/FuncMath.htm`](../manual/FuncMath.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FuncMath.htm`](../html/FuncMath.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Math Functions

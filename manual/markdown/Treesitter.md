@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Syntaxes
 
-**Source:** [`manual/Treesitter.htm`](../manual/Treesitter.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Treesitter.htm`](../html/Treesitter.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Syntaxes

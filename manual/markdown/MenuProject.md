@@ -1,6 +1,6 @@
 # 010 Editor Manual - Project Menu
 
-**Source:** [`manual/MenuProject.htm`](../manual/MenuProject.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuProject.htm`](../html/MenuProject.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Project Menu

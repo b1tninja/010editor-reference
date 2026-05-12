@@ -2,7 +2,7 @@
 
 Agent-oriented summary derived from the **SweetScape 010 Editor** manual pages mirrored under [`manual/`](manual/) (HTML sources are `.htm`; some copies are suffixed ` (1).htm`). Canonical online manual: [https://www.sweetscape.com/010editor/manual/](https://www.sweetscape.com/010editor/manual/). Copyright and trademarks belong to SweetScape Software.
 
-**Broader indexes:** [templates.md](templates.md) (template engine hub), [scripts.md](scripts.md) (script engine hub), and the full per-page mirror **[manual_md/README.md](manual_md/README.md)**.
+**Broader indexes:** [templates.md](templates.md) (template engine hub), [scripts.md](scripts.md) (script engine hub), and the full per-page mirror **[manual/markdown/README.md](manual/markdown/README.md)**.
 
 Use this document when designing or editing templates such as [`Pkgstream_2WIRE_SP.bt`](Pkgstream_2WIRE_SP.bt), [`S34ML_NAND_inline_2112.bt`](S34ML_NAND_inline_2112.bt), and [`OpenTL_NAND_inline_2112.bt`](OpenTL_NAND_inline_2112.bt).
 
@@ -17,7 +17,7 @@ Use this document when designing or editing templates such as [`Pkgstream_2WIRE_
 
 Templates declare variables in order; each declaration consumes bytes at the **current read position** (see `FTell` / `FSeek`). **Read** functions (`ReadByte`, `ReadUInt`, `ReadUByte`, …) read at an address **without** advancing that position (manual: *I/O Functions*).
 
-Reference pages: [IntroTempScripts.htm](manual/IntroTempScripts.htm), [IntroTemplates.htm](manual/IntroTemplates.htm), [IntroScripts.htm](manual/IntroScripts.htm).
+Reference pages: [IntroTempScripts.htm](manual/html/IntroTempScripts.htm), [IntroTemplates.htm](manual/html/IntroTemplates.htm), [IntroScripts.htm](manual/html/IntroScripts.htm).
 
 ---
 
@@ -26,33 +26,33 @@ Reference pages: [IntroTempScripts.htm](manual/IntroTempScripts.htm), [IntroTemp
 1. Template is **compiled**, then **run** from the first line downward.
 2. **Control flow** (`if`, `for`, `while`, etc.) can appear **inside** `struct` / `typedef` bodies (unlike plain C structs).
 3. Accessing a variable reads from the file; assigning writes back.
-4. **Local coordinates**: addresses for `FTell`, `FSeek`, `Read*`, and `startof()` are normally **0 .. FileSize()-1** (exceptions: processes, custom hex start address). See [TemplateVariables.htm — Local Coordinates](manual/TemplateVariables.htm).
+4. **Local coordinates**: addresses for `FTell`, `FSeek`, `Read*`, and `startof()` are normally **0 .. FileSize()-1** (exceptions: processes, custom hex start address). See [TemplateVariables.htm — Local Coordinates](manual/html/TemplateVariables.htm).
 
 ---
 
 ## 3. Manual map: template syntax topics
 
-From [Writing Templates](manual/IntroTemplates.htm):
+From [Writing Templates](manual/html/IntroTemplates.htm):
 
-- [Expressions.htm](manual/Expressions.htm)
-- [Declaring Template Variables](manual/TemplateVariables.htm)
-- [Data Types, Typedefs, and Enums](manual/DataTypes.htm)
-- [Structs and Unions](manual/Structs.htm)
-- [Arrays, Duplicates, and Optimizing](manual/ArraysDuplicates.htm)
-- [Strings](manual/ArraysStrings.htm)
-- [Control Statements](manual/ControlStatements.htm)
-- [Functions](manual/Functions.htm)
-- [Special Keywords](manual/Sizeof.htm) (`sizeof`, **`startof`**)
-- [Preprocessor](manual/Preprocessor.htm)
-- [Includes](manual/Includes.htm)
-- [Bitfields](manual/Bitfields.htm)
-- [Editing Variables with Scripts](manual/EditingWithScripts.htm)
-- [Custom Variables](manual/CustomVariables.htm) (`read=` / `write=`)
-- [On-Demand Structures](manual/OnDemand.htm)
-- [External (DLL) Functions](manual/ScriptDLL.htm)
-- [Limitations](manual/TemplateLimitations.htm)
+- [Expressions.htm](manual/html/Expressions.htm)
+- [Declaring Template Variables](manual/html/TemplateVariables.htm)
+- [Data Types, Typedefs, and Enums](manual/html/DataTypes.htm)
+- [Structs and Unions](manual/html/Structs.htm)
+- [Arrays, Duplicates, and Optimizing](manual/html/ArraysDuplicates.htm)
+- [Strings](manual/html/ArraysStrings.htm)
+- [Control Statements](manual/html/ControlStatements.htm)
+- [Functions](manual/html/Functions.htm)
+- [Special Keywords](manual/html/Sizeof.htm) (`sizeof`, **`startof`**)
+- [Preprocessor](manual/html/Preprocessor.htm)
+- [Includes](manual/html/Includes.htm)
+- [Bitfields](manual/html/Bitfields.htm)
+- [Editing Variables with Scripts](manual/html/EditingWithScripts.htm)
+- [Custom Variables](manual/html/CustomVariables.htm) (`read=` / `write=`)
+- [On-Demand Structures](manual/html/OnDemand.htm)
+- [External (DLL) Functions](manual/html/ScriptDLL.htm)
+- [Limitations](manual/html/TemplateLimitations.htm)
 
-**Function reference** (templates and scripts): [FuncInterface.htm](manual/FuncInterface.htm), [FuncIO.htm](manual/FuncIO.htm), [FuncString.htm](manual/FuncString.htm), [FuncMath.htm](manual/FuncMath.htm), [FuncTools.htm](manual/FuncTools.htm).
+**Function reference** (templates and scripts): [FuncInterface.htm](manual/html/FuncInterface.htm), [FuncIO.htm](manual/html/FuncIO.htm), [FuncString.htm](manual/html/FuncString.htm), [FuncMath.htm](manual/html/FuncMath.htm), [FuncTools.htm](manual/html/FuncTools.htm).
 
 ---
 
@@ -62,7 +62,7 @@ From [Writing Templates](manual/IntroTemplates.htm):
 
 Each variable is placed at the **current file position**; the position then advances by the variable’s size. Query with **`FTell()`**; move with **`FSeek(int64 pos)`** or **`FSkip`**. To read without declaring a variable, use **`ReadUByte` / `ReadUInt` / …** at an explicit offset (they do **not** move the template read position).
 
-Source: [TemplateVariables.htm — Positioning Variables](manual/TemplateVariables.htm).
+Source: [TemplateVariables.htm — Positioning Variables](manual/html/TemplateVariables.htm).
 
 ### 4.2 `pos` / `localpos`
 
@@ -73,11 +73,11 @@ Source: [TemplateVariables.htm — Positioning Variables](manual/TemplateVariabl
 
 **`startof(variable)`** returns the **local** starting byte address of the bytes mapped to that variable. Use for “header begins at …”, “payload starts at `startof(tlv) + 8`”, etc.
 
-Source: [Sizeof.htm — startof](manual/Sizeof.htm).
+Source: [Sizeof.htm — startof](manual/html/Sizeof.htm).
 
 ### 4.4 Other common attributes
 
-From [TemplateVariables.htm](manual/TemplateVariables.htm):
+From [TemplateVariables.htm](manual/html/TemplateVariables.htm):
 
 - **`<comment="...">`**, **`<name=...>`** — Template Results display; name/comment can be functions (v4+), inline expressions (v12+).
 - **`<open=true|false|suppress>`** — default expand/collapse in Template Results.
@@ -89,7 +89,7 @@ From [TemplateVariables.htm](manual/TemplateVariables.htm):
 
 ## 5. Custom display: `read=` and `write=`
 
-[Custom Variables.htm](manual/CustomVariables.htm):
+[Custom Variables.htm](manual/html/CustomVariables.htm):
 
 - Attach **`read=FunctionName`** (and optionally **`write=FunctionName`**) to a **`typedef`** or struct via **`&lt;read=...&gt;`**.
 - **Read** function signature: **`string Name(Type v)`** or **`string Name(Type &v)`** for structs.
@@ -106,14 +106,14 @@ From [TemplateVariables.htm](manual/TemplateVariables.htm):
 
 ## 6. Endianness
 
-- Files have an endian mode (status bar **LIT** / **BIG**). [ByteOrdering.htm](manual/ByteOrdering.htm).
-- In templates/scripts, **`BigEndian()`** / **`LittleEndian()`** force subsequent reads/writes for variables (see [FuncIO.htm](manual/FuncIO.htm)).
+- Files have an endian mode (status bar **LIT** / **BIG**). [ByteOrdering.htm](manual/html/ByteOrdering.htm).
+- In templates/scripts, **`BigEndian()`** / **`LittleEndian()`** force subsequent reads/writes for variables (see [FuncIO.htm](manual/html/FuncIO.htm)).
 
 ---
 
 ## 7. Limitations vs ANSI C
 
-From [TemplateLimitations.htm](manual/TemplateLimitations.htm):
+From [TemplateLimitations.htm](manual/html/TemplateLimitations.htm):
 
 - No **`*` pointers**; **`&`** only in custom function parameters (per Functions topic).
 - **`#if`** not supported; **`#define` macros** (function-like) not supported as in C.
@@ -124,12 +124,12 @@ From [TemplateLimitations.htm](manual/TemplateLimitations.htm):
 
 ## 8. Scripts (`.1sc`): capabilities
 
-From [IntroScripts.htm](manual/IntroScripts.htm):
+From [IntroScripts.htm](manual/html/IntroScripts.htm):
 
 - Automate editing, disk operations, comparisons, checksums, find-in-files, etc.
 - Run from **Scripts** menu or automation hooks (**startup**, **shutdown**, **file open**, menu entries — see **Script Options** in manual).
-- Same core syntax topics as templates (expressions, types, control flow, functions) plus **[Declaring Script Variables](manual/ScriptVariables.htm)** instead of template variable declaration rules.
-- **Debugger** for templates and scripts: [Debug.htm](manual/Debug.htm).
+- Same core syntax topics as templates (expressions, types, control flow, functions) plus **[Declaring Script Variables](manual/html/ScriptVariables.htm)** instead of template variable declaration rules.
+- **Debugger** for templates and scripts: [Debug.htm](manual/html/Debug.htm).
 
 ---
 
@@ -161,15 +161,15 @@ Prefer **`SPrintf`** into **`string`** buffers, or **`string x = x + fragment`**
 
 | Topic | File |
 |--------|------|
-| Templates vs scripts overview | [IntroTempScripts.htm](manual/IntroTempScripts.htm) |
-| Writing templates (topic list) | [IntroTemplates.htm](manual/IntroTemplates.htm) |
-| Writing scripts | [IntroScripts.htm](manual/IntroScripts.htm) |
-| Template variables / attributes | [TemplateVariables.htm](manual/TemplateVariables.htm) |
-| Custom read/write | [CustomVariables.htm](manual/CustomVariables.htm) |
-| `startof` / `sizeof` | [Sizeof.htm](manual/Sizeof.htm) |
-| I/O (`FTell`, `FSeek`, `Read*`, `BigEndian`, `FileSize`) | [FuncIO.htm](manual/FuncIO.htm) |
-| Limitations | [TemplateLimitations.htm](manual/TemplateLimitations.htm) |
-| Template Results UI | [TemplateResults.htm](manual/TemplateResults.htm) |
+| Templates vs scripts overview | [IntroTempScripts.htm](manual/html/IntroTempScripts.htm) |
+| Writing templates (topic list) | [IntroTemplates.htm](manual/html/IntroTemplates.htm) |
+| Writing scripts | [IntroScripts.htm](manual/html/IntroScripts.htm) |
+| Template variables / attributes | [TemplateVariables.htm](manual/html/TemplateVariables.htm) |
+| Custom read/write | [CustomVariables.htm](manual/html/CustomVariables.htm) |
+| `startof` / `sizeof` | [Sizeof.htm](manual/html/Sizeof.htm) |
+| I/O (`FTell`, `FSeek`, `Read*`, `BigEndian`, `FileSize`) | [FuncIO.htm](manual/html/FuncIO.htm) |
+| Limitations | [TemplateLimitations.htm](manual/html/TemplateLimitations.htm) |
+| Template Results UI | [TemplateResults.htm](manual/html/TemplateResults.htm) |
 
 ---
 

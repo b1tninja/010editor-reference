@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using Edit As
 
-**Source:** [`manual/Interfaces.htm`](../manual/Interfaces.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Interfaces.htm`](../html/Interfaces.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using Edit As

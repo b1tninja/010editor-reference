@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Workspace
 
-**Source:** [`manual/Workspace.htm`](../manual/Workspace.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/Workspace.htm`](../html/Workspace.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Workspace

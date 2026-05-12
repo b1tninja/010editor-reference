@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to Byte Ordering
 
-**Source:** [`manual/ByteOrdering.htm`](../manual/ByteOrdering.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/ByteOrdering.htm`](../html/ByteOrdering.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to Byte Ordering

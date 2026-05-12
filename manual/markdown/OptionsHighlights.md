@@ -1,6 +1,6 @@
 # 010 Editor Manual - Highlight Options
 
-**Source:** [`manual/OptionsHighlights.htm`](../manual/OptionsHighlights.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsHighlights.htm`](../html/OptionsHighlights.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Highlight Options

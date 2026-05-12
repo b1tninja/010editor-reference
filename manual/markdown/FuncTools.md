@@ -1,6 +1,6 @@
 # 010 Editor Manual - Tool Functions
 
-**Source:** [`manual/FuncTools.htm`](../manual/FuncTools.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/FuncTools.htm`](../html/FuncTools.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Tool Functions

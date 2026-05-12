@@ -1,6 +1,6 @@
 # 010 Editor Manual - Toolbar Options
 
-**Source:** [`manual/OptionsToolbars.htm`](../manual/OptionsToolbars.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsToolbars.htm`](../html/OptionsToolbars.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Toolbar Options

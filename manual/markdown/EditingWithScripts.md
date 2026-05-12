@@ -1,6 +1,6 @@
 # 010 Editor Manual - Editing Variables with Scripts
 
-**Source:** [`manual/EditingWithScripts.htm`](../manual/EditingWithScripts.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/EditingWithScripts.htm`](../html/EditingWithScripts.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Editing Variables with Scripts

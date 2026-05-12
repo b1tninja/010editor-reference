@@ -1,6 +1,6 @@
 # 010 Editor Manual - Using the Repository Menu
 
-**Source:** [`manual/RepositoryMenu.htm`](../manual/RepositoryMenu.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryMenu.htm`](../html/RepositoryMenu.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Using the Repository Menu

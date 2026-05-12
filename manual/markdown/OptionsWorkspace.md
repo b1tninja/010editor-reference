@@ -1,6 +1,6 @@
 # 010 Editor Manual - Workspace Options
 
-**Source:** [`manual/OptionsWorkspace.htm`](../manual/OptionsWorkspace.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OptionsWorkspace.htm`](../html/OptionsWorkspace.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Workspace Options

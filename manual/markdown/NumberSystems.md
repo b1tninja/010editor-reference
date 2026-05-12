@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to Number Systems
 
-**Source:** [`manual/NumberSystems.htm`](../manual/NumberSystems.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/NumberSystems.htm`](../html/NumberSystems.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to Number Systems

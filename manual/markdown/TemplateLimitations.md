@@ -1,6 +1,6 @@
 # 010 Editor Manual - Limitations
 
-**Source:** [`manual/TemplateLimitations.htm`](../manual/TemplateLimitations.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/TemplateLimitations.htm`](../html/TemplateLimitations.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Limitations

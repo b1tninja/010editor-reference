@@ -1,6 +1,6 @@
 # 010 Editor Manual - Introduction to the Repository
 
-**Source:** [`manual/RepositoryIntro.htm`](../manual/RepositoryIntro.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/RepositoryIntro.htm`](../html/RepositoryIntro.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Introduction to the Repository

@@ -1,6 +1,6 @@
 # 010 Editor Manual - Opening Files
 
-**Source:** [`manual/OpeningFiles.htm`](../manual/OpeningFiles.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/OpeningFiles.htm`](../html/OpeningFiles.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Opening Files

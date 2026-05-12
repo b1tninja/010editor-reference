@@ -1,6 +1,6 @@
 # 010 Editor Manual - Window Menu
 
-**Source:** [`manual/MenuWindow.htm`](../manual/MenuWindow.htm) (SweetScape 010 Editor manual mirror).
+**Source:** [`manual/html/MenuWindow.htm`](../html/MenuWindow.htm) (SweetScape 010 Editor manual mirror).
 
 ## Page header
 Window Menu
