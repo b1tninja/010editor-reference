@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=oZ57VlYl" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.sweetscape.com/010editor/manual/WritingTreesitter.htm","20260207132000","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1770470400");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<link rel="stylesheet" href="/web/20260207132000cs_/https://www.sweetscape.com/styles.css?v=1.6.3">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>010 Editor Manual - Writing Tree-sitter Syntaxes</title>
+<script type="text/javascript" src="/web/20260207132000js_/https://www.sweetscape.com/scripts.js?v=1.6.2"></script>
+</head>
+<body marginheight="0" topmargin="0" leftmargin="0" marginwidth="0" bottommargin="0">
+<table border="0" cellspacing="0" cellpadding="0" height="100%" width="100%">
+    <tr>
+        <td height="67" valign="top" bgcolor="#fe9806">
+            
+            
+            <div class="menu-top">
+                <div style="border: none; padding-left: 10px; padding-top:8px; width:306px; height:55px; flex:0 0 auto; box-sizing: border-box;">
+                   <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">
+                   <img style="width:286px; height:42px; display:block;" src="/web/20260207132000im_/https://www.sweetscape.com/graphics/SweetScapeBlack.png" vspace="0" hspace="0" border="0"></a>
+                </div>  
+                <div style="padding-top: 5px; flex: 1; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; margin-right:10px;">
+                    <div class="menu-container">
+                        <div class="dropdown">
+                          <a href="/web/20260207132000/https://www.sweetscape.com/products/"><button class="dropbtn" onclick="toggleSubmenu(event)">Products</button></a>
+                          <div class="dropdown-content">
+                            <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">010 Editor</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/010memorizer/">010 Memorizer</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/hamic/">Hamic</a>
+                          </div>
+                        </div> 
+                        <div class="dropdown">
+                          <a href="/web/20260207132000/https://www.sweetscape.com/download/"><button class="dropbtn" onclick="toggleSubmenu(event)">Downloads</button></a>
+                          <div class="dropdown-content-wide">
+                            <a href="/web/20260207132000/https://www.sweetscape.com/download/010editor/">Download 010 Editor</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/010editor/repository/templates/">Download Templates</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/010editor/repository/scripts/">Download Scripts</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/download/previous/">Download Previous Versions</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/download/">View All Downloads</a>
+                          </div>
+                        </div> 
+                        <div class="dropdown">
+                          <a href="/web/20260207132000/https://www.sweetscape.com/store/"><button class="dropbtn" onclick="toggleSubmenu(event)">Store</button></a>
+                          <div class="dropdown-content-wide">
+                            <!-- <a href="../../store/">Storefront</a> -->
+                            <a href="/web/20260207132000/https://www.sweetscape.com/store/purchase_010editor.php">Buy 010 Editor - New User</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/store/purchase_010editor.php?upgrade=true">Buy 010 Editor - Upgrade</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/store/#Pricing">Pricing</a>
+                          </div>
+                        </div> 
+                        <div class="dropdown">
+                          <a href="/web/20260207132000/https://www.sweetscape.com/support/"><button class="dropbtn" onclick="toggleSubmenu(event)">Support</button></a>
+                          <div class="dropdown-content">
+                            <a href="/web/20260207132000/https://www.sweetscape.com/support/">Support Home</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/">Online Manual</a>
+                            <a href="https://web.archive.org/web/20260207132000/https://forum.sweetscape.com/">Forum</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/support/kb/">Knowledgebase</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/support/#Contact">Contact Support</a>
+                          </div>
+                        </div> 
+                        <div class="dropdown">
+                          <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/"><button class="dropbtn" onclick="toggleSubmenu(event)">Company</button></a>
+                          <div class="dropdown-content-right">
+                            <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/">About Us</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/press/">Press Resources</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/distributors.html">Distributors</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/search.html">Search Website</a>
+                            <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/#contact">Contact Us</a>
+                          </div>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+            
+            
+        </td>
+    </tr>
+    <tr>
+
+        <td height="47" valign="top" style="background-color: #252422;">
+
+            <table width="100%" height="47" cellpadding="0" cellspacing="0" background="/web/20260207132000im_/https://www.sweetscape.com/graphics/BarBackground.png">
+            <tr>
+                <td width="50%" height="47">&nbsp;</td>
+                <td>
+                    <a href="/web/20260207132000/https://www.sweetscape.com/010editor/"><img style="width:217px; height:47px; display:block;" src="/web/20260207132000im_/https://www.sweetscape.com/graphics/010editorsmall.png"></a>
+                </td>  
+                <td style="padding-left: 12px;">
+                    <div>
+                        <div class="smallslogan">Pro&nbsp;text/hex&nbsp;editor</div>
+                        <div class="smallslogan">with&nbsp;Binary&nbsp;Templates</div>
+                    </div>
+                </td>
+                <td width="50%" height="47" align="right" style="padding-right: 10px;">
+                
+                        <div class="dropdown">
+      <a href="/web/20260207132000/https://www.sweetscape.com/010editor/"><button class="dropbtn-010" onclick="toggleSubmenu(event)">
+      Tour</button></a>
+      <div class="dropdown-content-right">
+              <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">Introduction</a>
+              <a href="/web/20260207132000/https://www.sweetscape.com/010editor/templates.html">Binary Templates</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/screenshots.html">Online Tour</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/features.html">Feature List</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/awards.html">Awards</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/testimonials.html">Testimonials</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/">Online Manual</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/release_notes.html">Release Notes</a>
+        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/latest_version.html">What's New?</a>
+      </div>
+    </div> 
+                </td>                        
+            </tr>
+            </table>
+    </tr>
+     <tr>
+        <td style="width: 100%; height: 3px;" background="/web/20260207132000im_/https://www.sweetscape.com/graphics/ShadowTop.png">
+            <img src="/web/20260207132000im_/https://www.sweetscape.com/graphics/Clear.GIF" style="width: 3px; height: 3px; display: block;">
+        </td>
+     </tr>
+    <tr>
+        <td style="padding: 10px 20px;">
+        <center>
+        <div>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td valign="top" bgcolor="#e7e7e7">
+            <img width="300" height="2" src="/web/20260207132000im_/https://www.sweetscape.com/graphics/Clear.GIF"><br>
+            <center><u><b><a href="/web/20260207132000/https://www.sweetscape.com/010editor/">010 Editor - Text/Hex Editor Homepage</a></b></u></center>
+            <ul>
+    <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Introduction.htm">What is 010 Editor?</a>        
+    <li><b>Getting Started with 010 Editor</b>    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/NumberSystems.htm">Introduction to Number Systems</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ByteOrdering.htm">Introduction to Byte Ordering</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/DataEngine.htm">Introduction to the Data Engine</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/WhatsNew.htm">What's New in Version 16.0?</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/PreviousVersions.htm">Notes for Users of 010 Editor v10</a>            
+    </ul>
+    <li><b>Using 010 Editor - Basic Editing</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/IntroEditing.htm">Introduction to Editing</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OpeningFiles.htm">Opening Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/UsingFileTabs.htm">Using File Tabs</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/UsingTextEditor.htm">Using the Text Editor</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/UsingHexEditor.htm">Using the Hex Editor</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MiniMap.htm">Using the Mini Map</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Interfaces.htm">Using Edit As</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/SelectingBytes.htm">Selecting Bytes</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/UsingClipboard.htm">Using the Clipboard</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/StatusBar.htm">Status Bar</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/SavingFiles.htm">Saving Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/DockWindows.htm">Using Dock Windows</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Tables.htm">Using Tables</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/StartupPage.htm">Using the Startup Page</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Portable.htm">Using the Portable Version</a>            
+    </ul>
+    <li><b>Using 010 Editor - Advanced Editing</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/EditingDrives.htm">Editing Drives</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/EditingProcesses.htm">Editing Processes</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Workspace.htm">Using the Workspace</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Inspector.htm">Using the Inspector</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Bookmarks.htm">Using Bookmarks</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ColumnMode.htm">Using Column Mode</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Find.htm">Using Find</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Replace.htm">Using Replace</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FindInFiles.htm">Using Find in Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ReplaceInFiles.htm">Using Replace in Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RegularExpressions.htm">Using Regular Expressions</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FindStrings.htm">Using Find Strings</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Goto.htm">Using Goto</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Project.htm">Using Projects and Workspaces</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/PasteSpecial.htm">Using Paste Special</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/SelectRange.htm">Selecting a Range</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/InsertBytes.htm">Inserting or Overwriting Bytes</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/InsertFiles.htm">Inserting or Overwriting Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/SetFileSize.htm">Setting the File Size</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Properties.htm">File Properties</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ImportExport.htm">Importing/Exporting Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/CommandLine.htm">Command Line Parameters</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ToolBars.htm">Using Tool Bars</a>            
+        <li><b>Printing Documents</b>        <ul>
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Printing.htm">Printing</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/PrintPreview.htm">Print Preview</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/PageSetup.htm">Page Setup</a>                
+        </ul>
+    </ul>
+    <li><b>Using 010 Editor - Tools</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Calculator.htm">Calculator</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Compare.htm">Comparing Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Operations.htm">Hex Operations</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Convert.htm">Converting Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Histograms.htm">Histograms</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/CheckSum.htm">Check Sum/Hash Algorithms</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Disassembler.htm">Disassembler</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/BaseConverter.htm">Base Converter</a>            
+    </ul>
+    <li><b>Using 010 Editor - Syntax</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Treesitter.htm">Using Syntaxes</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Syntax.htm">Syntax Highlighting</a>            
+        <li><span class="HelpCurrent">Writing Tree-sitter Syntaxes</span>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/WritingSyntaxes.htm">Writing Template Syntaxes</a>            
+    </ul>
+    <li><b>Using 010 Editor - Templates and Scripts</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/IntroTempScripts.htm">Introduction to Templates and Scripts</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Running.htm">Running Templates and Scripts</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/TemplateResults.htm">Working with Template Results</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Debug.htm">Using the Debugger</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/IntroScripts.htm">Writing Scripts</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/IntroTemplates.htm">Writing Templates</a>            
+        <li><b>Language Reference</b>        
+        <ul>
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Expressions.htm">Expressions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ScriptVariables.htm">Declaring Script Variables</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/TemplateVariables.htm">Declaring Template Variables</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/DataTypes.htm">Data Types, Typedefs, and Enums</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Structs.htm">Structs and Unions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ArraysDuplicates.htm">Arrays, Duplicates, and Optimizing</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ArraysStrings.htm">Strings</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ControlStatements.htm">Control Statements</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Functions.htm">Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Sizeof.htm">Special Keywords</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Preprocessor.htm">Preprocessor</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Includes.htm">Includes</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Bitfields.htm">Bitfields</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/EditingWithScripts.htm">Editing Variables with Scripts</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/CustomVariables.htm">Custom Variables</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OnDemand.htm">On-Demand Structures</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ScriptDLL.htm">External (DLL) Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/DisassemblerTemplates.htm">Disassembly in Templates</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/TemplateLimitations.htm">Limitations</a>                
+        </ul>
+        <li><b>Function Reference</b>            
+        <ul>
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FuncInterface.htm">Interface Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FuncIO.htm">I/O Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FuncString.htm">String Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FuncMath.htm">Math Functions</a>                
+            <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/FuncTools.htm">Tool Functions</a>                
+        </ul>
+    </ul>
+    <li><b>Using 010 Editor - The Repository</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryIntro.htm">Introduction to the Repository</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryDialog.htm">Using the Repository Dialog</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryOpen.htm">Installing Files on Open from the Repository</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryMenu.htm">Using the Repository Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryMerge.htm">Updating and Merging Files</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositorySubmit.htm">Submitting Files to the Repository</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/RepositoryUpdate.htm">Updating the Repository</a>            
+    </ul>
+    <li><b>Menu Reference</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuFile.htm">File Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuEdit.htm">Edit Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuSelect.htm">Select Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuSearch.htm">Find Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuView.htm">View Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuFormat.htm">Format Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuScripts.htm">Scripts Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuTemplates.htm">Templates Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuDebug.htm">Debug Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuProject.htm">Project Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuTools.htm">Tools Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuWindow.htm">Window Menu</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/MenuHelp.htm">Help Menu</a>            
+    </ul>
+    <li><b>Options Reference</b>        
+    <ul>
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsGeneral.htm">General Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsEditor.htm">Editor Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsTextEditor.htm">Text Editor Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsHexEditor.htm">Hex Editor Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsOpening.htm">Opening Files/Tabs Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsInterfaces.htm">Edit As Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsColors.htm">Theme/Color Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsFonts.htm">Font Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsCharSets.htm">Chararacter Set Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsBackups.htm">Backup Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsDirectories.htm">Directory Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsFileDialogs.htm">File Dialog Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsKeyboard.htm">Shortcut Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsPrograms.htm">Program Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsHighlights.htm">Highlight Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsSyntax.htm">Syntax Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsCompiling.htm">Compiling Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsScripts.htm">Script Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsTemplates.htm">Template Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsRepository.htm">Repository Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsPermissions.htm">Permission Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsImporting.htm">Import/Export Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsWorkspace.htm">Workspace Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsInspector.htm">Inspector/Tables Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsToolbars.htm">Toolbar Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsMenus.htm">Menu Options</a>            
+        <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/OptionsCache.htm">Cache Options</a>            
+    </ul>
+    <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/BuyNow.htm">Buying 010 Editor</a>            
+    <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/Support.htm">Getting Support</a>            
+    <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/License.htm">License Agreement</a>            
+    <li><a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/ReleaseNotes.htm">Release Notes</a>            
+</ul>
+<br>
+
+        </td>
+        <td width="100%" valign="top" bgcolor="#ffffff">
+
+        
+    <!-- ---------------------- -->
+
+<table bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="middle" width="100%"><a name="idh_number_systems"></a>
+<div class="PageHeader">Writing Tree-sitter Syntaxes</div></td>
+<td><img align="right" src="/web/20260207132000im_/https://www.sweetscape.com/010editor/images/HelpLogo.png"></td>
+</tr>
+<tr>
+<td colspan="2" height="4" background="/web/20260207132000im_/https://www.sweetscape.com/010editor/images/LineShadow.png"><img style="width:4px; height=4px; display:block;" width="4" height="4" src="/web/20260207132000im_/https://www.sweetscape.com/010editor/images/Clear.png"></td>
+</tr>
+</table>
+
+<table width="100%"><tr><td class="bodycell">
+
+
+<p>A Tree-sitter <a href="Treesitter.htm">Syntax</a> requires two things: a dynamic link library containing a Tree-sitter parser (.dll on Windows, .so on Linux, or .dylib on macOS), and a Syntax010 file. A Syntax010 file is a text file with extension .syntax010 that controls how symbols are mapped to syntax styles for syntax highlighting, how brace-matching is done, and how section lines are calculated. Installing a new Tree-sitter syntax involves compiling the dynamic link library and creating the Syntax010 file. To modify how syntax highlighting, brace-matching, or section lines are calculated just involves editing the Syntax010 file and see <a href="#editingsyntax010">Editing a Syntax010 File</a> below.</p>
+
+<!-- ------------- -->
+<hr>
+<h2>Installing a New Tree-sitter Syntax</h2>
+
+<p>A variety of Tree-sitter syntaxes are available on the internet and a good place to find syntaxes is to search on GitHub for tree-sitter-??? where ??? is the syntax name. If a syntax is found, download and extract the source code package. Creating the dynamic link library requires compiling just the files "src/parser.c" and optionally "src/scanner.c" or "src/scanner.cc". For example, to compile using gcc use:</p>
+
+<pre>    gcc -o tree-sitter-???.so -shared src/parser.c src/scanner.c -I./src
+</pre>
+
+<p>If the parser.c file does not exist, install the Tree-sitter command line interface (tree-sitter-cli) and run:</p>
+
+<pre>    tree-sitter generate
+</pre>
+
+<p>in the directory where the package was extracted. To create an entirely new Tree-sitter syntax involves writing a 'grammar.js' file which describes the rules for the syntax. See the site:</p>
+
+<pre>    <a href="https://web.archive.org/web/20260207132000/https://tree-sitter.github.io/">https://tree-sitter.github.io/</a>
+</pre>
+
+<p>for more information. If installing a new syntax copy the file "queries/highlights.scm" to the file "???.syntax010". Next use the <a href="OptionsSyntax.htm">Syntax Options</a> dialog and click the <i>Add...</i> button to add the "???.syntax010" file to 010 Editor.</p>
+
+<!-- ------------- -->
+<hr>
+<h2 id="syntaxtree">Syntax Trees</h2>
+
+<p>When creating syntax files, it is important to understand that the Tree-sitter dynamic link libraries parse source code into a syntax tree. For example, for the C code:</p>
+
+ <pre>    <font color="#005FBF">void</font> <font color="#FF9011">main</font>() 
+    {
+        <font color="#008000">return</font> <font color="#FF0080">5</font>;
+    }
+</pre>
+
+<p>This code is parsed into the syntax tree:</p>
+
+<pre>    <font color="#BF9939">(</font>function_definition
+      <font color="#4BC78D">type</font>: <font color="#BF9939">(</font>primitive_type<font color="#BF9939">)</font>
+      <font color="#4BC78D">declarator</font>: <font color="#BF9939">(</font>function_declarator
+        <font color="#4BC78D">declarator</font>: <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font>
+        <font color="#4BC78D">parameters</font>: <font color="#BF9939">(</font>parameter_list
+          <font color="#FF0000">"("</font>
+          <font color="#FF0000">")"</font><font color="#BF9939">))</font>
+      <font color="#4BC78D">body</font>: <font color="#BF9939">(</font>compound_statement
+        <font color="#FF0000">"{"</font>
+        <font color="#BF9939">(</font>return_statement
+          <font color="#FF0000">"return"</font>
+          <font color="#BF9939">(</font>number_literal<font color="#BF9939">)</font>
+          <font color="#FF0000">";"</font><font color="#BF9939">)</font>
+        <font color="#FF0000">"}"</font><font color="#BF9939">))</font>
+</pre>
+
+<p>Syntax trees contain symbol names (e.g. function_definition or identifier), and strings (e.g. "{" or "return"). Field names as shown above in green are followed by a colon. Field names are conceptually named edges in a node graph and can be ignored in many syntax files. To view the syntax tree created for a section of source code see <a href="#printingsyntax">Printing Syntax Trees</a>.</p> 
+
+<!-- ------------- -->
+<hr>
+<h2 id="editingsyntax010">Editing a Syntax010 File</h2>
+
+<p>Open the Syntax010 file for the current syntax by clicking the '<i>View &gt; Syntax &gt; Edit Syntax File</i>' menu option. To create a new Syntax010 file just create a new text file and save it with the extension ".syntax010". The Syntax010 file can be edited as a regular text file and once changes are made, click '<i>View &gt; Syntax &gt; Refresh Syntax</i>' or click the icon in the top-right corner of the editor to apply the syntax changes to all open files that use that syntax. Syntax010 files are very similar to the "queries/highlights.scm" file that is included with many Tree-sitter packages but adds some extensions. Separate sections for brace matching, injections and code folding can all be included in a Syntax010 file using the '#section' keyword as described below. Syntax010 files use ';' to indicate comments and contain a series of <a href="WritingTreesitter.htm#sexpressions">S-expressions</a>.</p>
+
+<!-- ------------- -->
+<hr>
+<h2 id="sexpressions">S-Expressions</h2>
+
+<p>A Syntax010 file consists of a series of S-expressions. The simplest S-expression contains a single symbol in brackets or a string, followed by '@' and a capture group name. For example:</p>
+
+<pre>    <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">variable</font>
+</pre>
+
+<p>or</p>
+
+<pre>    <font color="#FF0000">"return"</font> @<font color="#FF9011">keyword</font>
+</pre>
+
+<p>When a syntax is applied it would search the current file's <a href="WritingTreesitter.htm#syntaxtree">syntax tree</a> for all occurrences of the S-expression and every time an occurrence is found the node is returned along with the capture group. The capture groups may mean different things depending upon which #section of the Syntax010 file the S-expression is in. The first section of the Syntax010 file is always for syntax highlighting and the capture groups indicate syntax style names. In the example above, all nodes that match (identifier) would be colored as the "variable" syntax style and all "return" strings would be colored with the "keyword" syntax style.</p>
+
+<p>S-expressions can search for child nodes as well using parenthesis. For example, to only match (function_declaractor) symbols that have an (identifier) symbol as a child use:</p>
+
+<pre>    <font color="#BF9939">(</font>function_declarator
+        <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">function</font><font color="#BF9939">)</font>
+</pre>
+
+<p>If this S-expression is found in the tree then (identifier) would be colored with the "function" syntax style instead of the "variable" syntax style. If multiple child symbols are specified then all the child symbols have to exist under the parent but note the children can exist in any order. For example:</p>
+
+<pre>    <font color="#BF9939">(</font>assignment_expression
+      <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">variable</font>
+      <font color="#BF9939">(</font>function<font color="#BF9939">))</font>
+</pre>
+
+<p>would only match if (identifier) and (function) were both children of (assignment_expression). Any number of levels of hierarchy can be specified using nested parentheses. Field names can also be specified using ':' and if a field name is present then it must match the tree in order for the whole S-expression to match. For example, the following S-expression would require the "left" and "right" field names be found:</p>
+
+<pre>    <font color="#BF9939">(</font>assignment_expression
+      <font color="#4BC78D">left</font>: <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">variable</font>
+      <font color="#4BC78D">right</font>: <font color="#BF9939">(</font>function<font color="#BF9939">))</font>
+</pre>
+
+<p>An alternation is written using square brackets '[' and ']' and only one of the symbols inside of the brackets have to match the syntax tree. For example, the following S-expression would color multiple strings using the "keyword" syntax style:</p>
+
+<pre>    [
+      <font color="#FF0000">"return"</font>
+      <font color="#FF0000">"for"</font>
+      <font color="#FF0000">"while"</font>
+      <font color="#FF0000">"if"</font>
+      <font color="#FF0000">"else"</font>
+    ] @<font color="#FF9011">keyword</font>
+</pre>
+
+<p>A regular expression can be specified to match a symbol by using the "#match?" keyword, followed by the capture name, followed by the regular expression to match. Note that in the regular expressions, a double '\\' should be used to indicate a single slash '\'. For example, the following S-expression would match all (identifier) symbols that are all uppercase and assign them the "constant" syntax style:</p>
+
+<pre>    <font color="#BF9939">((</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">constant</font>
+     <font color="#BF9939">(</font><font color="#008000">#match?</font> @<font color="#FF9011">constant</font> "^[A-Z][A-Z\\d_]*$"<font color="#BF9939">))</font>
+</pre>
+
+<!-- ------------- -->
+<hr>
+<h2 id="editinghighlights">Editing Syntax Highlighting</h2>
+
+<p>The Syntax010 file contains a series of <a href="WritingTreesitter.htm#sexpressions">S-expressions</a>. All S-expressions before the first '#section' line in the file are considered to be for <a href="Syntax.htm">syntax highlighting</a>. The syntax will search the <a href="WritingTreesitter.htm#syntaxtree">syntax tree</a> of the current file for all occurrences of the S-expressions and each capture group marked with '@' indicates the name of a syntax style to color the found symbols or strings. For example:</p>
+
+<pre>    <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">variable</font>
+
+    <font color="#BF9939">(</font>function_declarator
+        <font color="#BF9939">(</font>identifier<font color="#BF9939">)</font> @<font color="#FF9011">function</font><font color="#BF9939">)</font>
+</pre>
+
+<p>These statements would color all (identifier) symbols with the "function" syntax style if they have the parent (function_declarator), or would color them with the "variable" syntax style if they do not have the parent (function_declarator). The list of syntax style names is available at the end of the <a href="OptionsColors.htm">Theme/Color Options</a> dialog.</p>
+
+<p>Syntax styles names are multi-level, meaning they may have multiple periods (.) in their name. If a syntax style is not found, the last period is removed and the string afterwards and the syntax style is searched again. For example, if a syntax specifies the syntax style "function.builtin" but that syntax style is not found, the syntax highlighter will try to use the syntax style "function" instead. To use a separate color for "function.builtin" use the <a href="OptionsColors.htm">Theme/Color Options</a> dialog to create the "function.builtin" syntax style and assign it a different color.</p>
+
+<!-- ------------- -->
+<hr>
+<h2 id="editingmatchingbraces">Editing Matching Braces/Tag</h2>
+
+<p>The 'match' section of the Syntax010 file controls which braces or tags are used for <a href="Treesitter.htm#matchingbraces">Highlighting Matching Braces/Tags</a>. Use "#section match" in the Syntax010 file to define the match section and all S-expressions after that statement are used for matching rules. For example:</p>
+
+<pre>    <font color="#008000">#section</font> <font color="#008000">match</font>
+
+    <font color="#BF9939">(</font>parenthesized_expression
+        <font color="#BF9939">(</font><font color="#FF0000">"("</font> @<font color="#FF9011">match.brace</font><font color="#BF9939">)</font>
+        <font color="#BF9939">(</font><font color="#FF0000">")"</font> @<font color="#FF9011">match.brace</font><font color="#BF9939">)</font> <font color="#BF9939">)</font> @<font color="#FF9011">match</font>
+</pre>
+
+<p>When defining which symbols or strings to match, use the capture group "@match.brace" with the two symbols or strings to match. Each of the symbols or strings should have a common parent. Also use the "@match" capture group for the whole expression. Once the file has been edit use '<i>View &gt; Syntax &gt; Refresh Syntax</i>' to apply the changes. To determine the syntax symbol or string for a piece of text in a source code file, select the piece of text and click '<i>View &gt; Syntax &gt; Print Syntax Tree</i>'.
+
+<!-- ------------- -->
+<hr>
+<h2 id="editingfold">Editing Section Lines/Folds</h2>
+
+<p>The text editor can draw vertical dotted lines between code sections and these lines are called <a href="Treesitter.htm#sectionlines">section lines</a>. In the future these sections will be foldable. Control where section lines are drawn by created a "#section fold" statement in the Syntax010 file. Each <a href="WritingTreesitter.htm#sexpressions">S-expression</a> in the section controls which symbol in the file has section lines drawn. For example:</p>
+
+<pre>    <font color="#008000">#section</font> <font color="#008000">fold</font>
+    
+    <font color="#BF9939">(</font>compound_statement<font color="#BF9939">)</font> @<font color="#FF9011">fold</font>
+</pre>
+
+<p>Mark symbols to draw section lines with the "@fold" capture group. Dotted lines are drawn vertically from the first non-whitespace character on the line where the symbol starts, to the line where the symbol ends. These lines can be hidden using the <a href="Treesitter.htm#syntaxmenu">Syntax Menu</a>.
+
+<!-- ------------- -->
+<hr>
+<h2 id="editinginjections">Editing Injections</h2>
+
+<p>Use the 'injection' section of a Syntax010 file to specify how one syntax is injected into another syntax. Injections allow code from one syntax to be placed inside code from another and both syntaxes are highlighted according to their own rules. For example, HTML files may contain JavaScript or CSS code. To create an injection use "#section injection" in the Syntax010 file and afterwards define an <a href="WritingTreesitter.htm#sexpressions">S-expression</a> using the "@injection.content" capture group. For example:</p>
+
+<pre>    <font color="#008000">#section</font> <font color="#008000">injection</font>
+    
+    <font color="#BF9939">((</font>script_element
+      <font color="#BF9939">(</font>raw_text<font color="#BF9939">)</font> @<font color="#FF9011">injection.content</font><font color="#BF9939">)</font>
+     <font color="#BF9939">(</font><font color="#008000">#set!</font> injection.language "javascript"<font color="#BF9939">))</font>
+</pre>
+
+<p>This will cause text inside the (raw_text) symbol to be treated as a different syntax. Use "#set! injection.language '&lt;name&gt;'" to specify which syntax to inject. The &lt;name&gt; must match one of the injection names listed in the <i>Injection Name</i> field of the <a href="OptionsSyntax.htm">Syntax Options</a> dialog.</p>
+
+<!-- ------------- -->
+<hr>
+<h2 id="printingsyntax">Printing Syntax Trees</h2>
+
+<p>A Tree-sitter syntax parses a text file into a <a href="WritingTreesitter.htm#syntaxtree">syntax tree</a>. This syntax tree can be printed to the Output tab of the Output Panel by clicking '<i>View &gt; Syntax &gt; Print Syntax Tree</i>'. If no selection is made the syntax tree for the entire file is printing and this tree can be very large for some files. If a selection is made then only those nodes that intersect the selected range and the parent nodes are printed. For example, for the following code:</p>
+
+<pre>    <font color="#005FBF">struct</font> <font color="#005FBF"><b>MYFILE</b></font> {
+        <font color="#005FBF">int</font> value;
+    } file;
+</pre>
+
+<p>the printed syntax tree would be:</p>
+
+<pre>    Syntax Tree 010:
+    (source_file [0 35]
+      (declaration [0 31]
+        type: (struct_specifier [0 25]
+          "struct" [0 6]
+          body: (compound_statement [7 25]
+            "{" [7 8]
+            (declaration [13 23]
+              type: (primitive_type [13 16])
+              declarator: (identifier [17 22])
+              ";" [22 23])
+            "}" [24 25]))
+        declarator: (identifier [26 30])
+        ";" [30 31])
+</pre>
+
+<p>The numbers in square brackets '[' and ']' indicate the starting and ending byte address for each symbol or string in the file. Printing the tree is useful for debugging problems with syntaxes and for identifying symbols within a syntax. Selecting a single word and printing the syntax tree will show which symbol name corresponds to that word.</p>
+
+
+</tr></table>
+<br><table width="100%" bgcolor="#f3f3f3" cellpadding="0" cellspacing="0">
+<tr><td height="4" background="/web/20260207132000im_/https://www.sweetscape.com/010editor/images/LineShadowDown.png"><img style="width:4px; height=4px; display:block;" width="4" height="4" src="/web/20260207132000im_/https://www.sweetscape.com/010editor/images/Clear.png"></td></tr>
+<tr><td align="right"><div class="RelatedTopics" style="margin-right:10px"><br>Related Topics:<br>
+
+<a href="Syntax.htm">Syntax Highlighting</a><br>
+<a href="OptionsSyntax.htm">Syntax Options</a><br>
+<a href="OptionsColors.htm">Theme/Color Options</a><br>
+<a href="Treesitter.htm">Using Syntaxes</a><br>
+
+</div></tr>
+<tr><td><center><div class="PageFooter"><p>010 Editor v16.0 Manual - Windows Edition<br>Copyright &#169; 2003-2025 SweetScape Software - www.sweetscape.com</p></div></center></tr>
+</table>
+
+    <!-- ---------------------- -->
+
+        
+        </td>
+    </tr>
+    </table>
+
+        <p>This is the manual for <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">010 Editor</a>, a professional hex editor and text editor.
+        <!-- <a href="../../010editor/">hex editor</a> and
+        <a href="../../010editor/">< ?php RRandomLink(); ? ></a>. --> Use 010 Editor to
+        edit the individual bytes of any binary file, hard drive, or process on your machine. 010 Editor
+        contains a whole host of powerful analysis and editing tools, plus Binary Templates technology
+        that allows any binary format to be understood.</p>
+
+    <br><br>
+
+
+            </div>
+        </center>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 10px 20px;" bgcolor="#fffbdb">
+        <center>
+        <div class="contentdiv">
+
+    <center>
+    <div class="news-panel">
+        <div style="flex:1;">
+            <div style="display: flex; align-items: center; gap:4px;">
+                <div>
+                    <img src="/web/20260207132000im_/https://www.sweetscape.com/graphics/News.GIF" width="64" height="64"><br>
+                </div>
+                <div style="text-align:left;">
+                    <span class="NewsletterHeader">Newsletter</span> -       
+	                Receive special offers, tips, tricks and news.
+                    <a href="/web/20260207132000/https://www.sweetscape.com/news/"><b>Join now</b></a><br>
+                </div>
+            </div>                            
+        </div>
+
+        <div style="flex:1;">
+            <div style="display: flex; align-items: center; gap:4px;">
+                <div>
+                    <img src="/web/20260207132000im_/https://www.sweetscape.com/graphics/New2.GIF" width="64" height="64"><br>
+                </div>
+                <div style="text-align:left;">
+                    <span class="NewsletterHeader">010 Editor v16.0.3</span> is here!</a><br>       
+	                <a href="/web/20260207132000/https://www.sweetscape.com/010editor/latest_version.html">
+		            <b>What's new?</b></a><br>
+                </div>
+            </div>                            
+        </div>
+    </div>
+    </center>
+    
+
+
+            </div>
+        </center>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#32312e" valign="top">
+        <br>
+        <div style="width:calc(100% - 60px); margin-left:30px; margin-right:30px; flex-wrap: wrap; display: flex; gap:10px;">        
+        
+            <div style="flex: 2; box-sizing: border-box;">
+                <div class="bottommenuheader">Navigation</div>
+                <hr class="bottommenu-line">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td valign="top">
+                        <div class="bottommenu">
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/">      Home</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/products/">      Products</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/download/">      Downloads</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/store/">      Store</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/support/">      Support</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/">      Company</a>
+<br>
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="bottommenu">
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/#contact">      Contact</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/press/">      Press</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/sitemap.html">      Site Map</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/privacy.html">      Privacy</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/links/">      Resources</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/companyinfo/search.html">      Search</a>
+<br>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+            </div>    
+            
+           <div style="flex: 1; box-sizing: border-box;">
+               <div class="bottommenuheader">Products</div>
+               <hr class="bottommenu-line">
+               <table cellpadding="0" cellspacing="0">
+               <tr>
+                    <td valign="top">
+                        <div class="bottommenu">
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">      010 Editor</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010memorizer/">      010 Memorizer</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/hamic/">      Hamic</a>
+<br>
+                        </div>
+                    </td>
+               </tr>
+               </table>
+            </div>
+
+          <div style="flex:2; box-sizing: border-box;">
+               <div class="bottommenuheader">010 Editor</div>
+               <hr class="bottommenu-line">
+               <table cellpadding="0" cellspacing="0" width="100%">
+               <tr>
+                    <td valign="top">
+                        <div class="bottommenu">
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/">      Introduction</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/templates.html">      Binary Templates</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/screenshots.html">      Online Tour</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/features.html">      Feature List</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/awards.html">      Awards</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/testimonials.html">      Testimonials</a>
+<br>
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="bottommenu">
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/manual/">      Online Manual</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/repository/templates/">      Template Repository</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/010editor/repository/scripts/">      Script Repository</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/store/#Pricing">      Pricing</a>
+<br>
+                                        <a href="/web/20260207132000/https://www.sweetscape.com/download/010editor/">      Download</a>
+<br>
+                        </div>
+                    </td>
+               </tr>
+               </table>            
+            
+            </div>
+        </div>
+        
+            
+                
+
+        
+        
+        <br><br>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#3c3b37">
+            <table border="0" cellspacing="0" cellpadding="8" height="37" width="100%">             
+            <tr>
+                <td width="60%" style="padding-left:14px;">
+                    <div class="PageFooter">Copyright &#169; 2002-2026 SweetScape Software Inc. - All Rights Reserved.</div>
+                </td>
+                <td align="right" width="40%" style="padding-right:15px;">
+                    <span class="PageFooter">
+                    E-mail: </span>
+                    <span class="PageFooter">
+                      <a href="https://web.archive.org/web/20260207132000/mailto:info@sweetscape.com">
+                      info@sweetscape.com</a><br>
+                    </span>
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+
+
+<!--
+     FILE ARCHIVED ON 13:20:00 Feb 07, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:41:50 May 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.636
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.069
+  esindex: 0.013
+  cdx.remote: 6.054
+  LoadShardBlock: 38.409 (3)
+  PetaboxLoader3.datanode: 74.856 (4)
+  load_resource: 202.59
+  PetaboxLoader3.resolve: 140.423
+-->

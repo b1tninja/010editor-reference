@@ -1,0 +1,151 @@
+# 010 Editor manual — Markdown mirrors
+
+See **[MANUAL_MIRROR.md](MANUAL_MIRROR.md)** for how these files are produced and what they omit.
+
+Generated summaries for **141** canonical `.htm` pages (duplicate ` (1).htm` copies omitted).
+
+Each file lists **section headings** and **lead paragraphs**; open the HTML for complete content.
+
+## Index
+
+- [ArraysDuplicates.md](ArraysDuplicates.md) — 010 Editor Manual - Arrays, Duplicates, and Optimizing
+- [ArraysStrings.md](ArraysStrings.md) — 010 Editor Manual - Strings
+- [BaseConverter.md](BaseConverter.md) — 010 Editor Manual - Base Converter
+- [Bitfields.md](Bitfields.md) — 010 Editor Manual - Bitfields
+- [Bookmarks.md](Bookmarks.md) — 010 Editor Manual - Using Bookmarks
+- [BuyNow.md](BuyNow.md) — 010 Editor Manual - How to Buy 010 Editor
+- [ByteOrdering.md](ByteOrdering.md) — 010 Editor Manual - Introduction to Byte Ordering
+- [Calculator.md](Calculator.md) — 010 Editor Manual - Calculator
+- [CheckSum.md](CheckSum.md) — 010 Editor Manual - Check Sum/Hash Algorithms
+- [ColumnMode.md](ColumnMode.md) — 010 Editor Manual - Using Column Mode
+- [CommandLine.md](CommandLine.md) — 010 Editor Manual - Command Line Parameters
+- [Compare.md](Compare.md) — 010 Editor Manual - Comparing Files
+- [ControlStatements.md](ControlStatements.md) — 010 Editor Manual - Control Statements
+- [Convert.md](Convert.md) — 010 Editor Manual - Converting Files
+- [CustomVariables.md](CustomVariables.md) — 010 Editor Manual - Custom Variables
+- [DataEngine.md](DataEngine.md) — 010 Editor Manual - Introduction to the Data Engine
+- [DataTypes.md](DataTypes.md) — 010 Editor Manual - Data Types, Typedefs, and Enums
+- [Debug.md](Debug.md) — 010 Editor Manual - Using the Debugger
+- [Disassembler.md](Disassembler.md) — 010 Editor Manual - Disassembler
+- [DisassemblerTemplates.md](DisassemblerTemplates.md) — 010 Editor Manual - Disassembly in Templates
+- [DockWindows.md](DockWindows.md) — 010 Editor Manual - Using Dock Windows
+- [download.md](download.md) — 010 Editor - Manual
+- [EditingDrives.md](EditingDrives.md) — 010 Editor Manual - Editing Drives
+- [EditingProcesses.md](EditingProcesses.md) — 010 Editor Manual - Editing Processes
+- [EditingWithScripts.md](EditingWithScripts.md) — 010 Editor Manual - Editing Variables with Scripts
+- [Expressions.md](Expressions.md) — 010 Editor Manual - Expressions
+- [Find.md](Find.md) — 010 Editor Manual - Using Find
+- [FindInFiles.md](FindInFiles.md) — 010 Editor Manual - Using Find in Files
+- [FindStrings.md](FindStrings.md) — 010 Editor Manual - Using Find Strings
+- [FuncInterface.md](FuncInterface.md) — 010 Editor Manual - Interface Functions
+- [FuncIO.md](FuncIO.md) — 010 Editor Manual - I/O Functions
+- [FuncMath.md](FuncMath.md) — 010 Editor Manual - Math Functions
+- [FuncString.md](FuncString.md) — 010 Editor Manual - String Functions
+- [Functions.md](Functions.md) — 010 Editor Manual - Functions
+- [FuncTools.md](FuncTools.md) — 010 Editor Manual - Tool Functions
+- [Goto.md](Goto.md) — 010 Editor Manual - Using Goto
+- [Histograms.md](Histograms.md) — 010 Editor Manual - Histograms/Entropy
+- [ImportExport.md](ImportExport.md) — 010 Editor Manual - Importing/Exporting Files
+- [Includes.md](Includes.md) — 010 Editor Manual - Includes
+- [InsertBytes.md](InsertBytes.md) — 010 Editor Manual - Inserting or Overwriting Bytes
+- [InsertFiles.md](InsertFiles.md) — 010 Editor Manual - Inserting or Overwriting Files
+- [Inspector.md](Inspector.md) — 010 Editor Manual - Using the Inspector
+- [Interfaces.md](Interfaces.md) — 010 Editor Manual - Using Edit As
+- [Introduction.md](Introduction.md) — 010 Editor Manual - What is 010 Editor?
+- [IntroEditing.md](IntroEditing.md) — 010 Editor Manual - Introduction to Editing
+- [IntroScripts.md](IntroScripts.md) — 010 Editor Manual - Writing Scripts
+- [IntroTemplates.md](IntroTemplates.md) — 010 Editor Manual - Writing Templates
+- [IntroTempScripts.md](IntroTempScripts.md) — 010 Editor Manual - Introduction to Templates and Scripts
+- [License.md](License.md) — 010 Editor Manual - License Agreement
+- [MenuDebug.md](MenuDebug.md) — 010 Editor Manual - Debug Menu
+- [MenuEdit.md](MenuEdit.md) — 010 Editor Manual - Edit Menu
+- [MenuFile.md](MenuFile.md) — 010 Editor Manual - File Menu
+- [MenuFormat.md](MenuFormat.md) — 010 Editor Manual - Format Menu
+- [MenuHelp.md](MenuHelp.md) — 010 Editor Manual - Help Menu
+- [MenuProject.md](MenuProject.md) — 010 Editor Manual - Project Menu
+- [MenuScripts.md](MenuScripts.md) — 010 Editor Manual - Scripts Menu
+- [MenuSearch.md](MenuSearch.md) — 010 Editor Manual - Find Menu
+- [MenuSelect.md](MenuSelect.md) — 010 Editor Manual - Select Menu
+- [MenuTemplates.md](MenuTemplates.md) — 010 Editor Manual - Templates Menu
+- [MenuTools.md](MenuTools.md) — 010 Editor Manual - Tools Menu
+- [MenuView.md](MenuView.md) — 010 Editor Manual - View Menu
+- [MenuWindow.md](MenuWindow.md) — 010 Editor Manual - Window Menu
+- [MiniMap.md](MiniMap.md) — 010 Editor Manual - Using the Mini Map
+- [NumberSystems.md](NumberSystems.md) — 010 Editor Manual - Introduction to Number Systems
+- [OnDemand.md](OnDemand.md) — 010 Editor Manual - On-Demand Structures
+- [OpeningFiles.md](OpeningFiles.md) — 010 Editor Manual - Opening Files
+- [Operations.md](Operations.md) — 010 Editor Manual - Hex Operations
+- [OptionsBackups.md](OptionsBackups.md) — 010 Editor Manual - Backup Options
+- [OptionsCache.md](OptionsCache.md) — 010 Editor Manual - Cache Options
+- [OptionsCharSets.md](OptionsCharSets.md) — 010 Editor Manual - Character Set Options
+- [OptionsColors.md](OptionsColors.md) — 010 Editor Manual - Theme/Color Options
+- [OptionsCompiling.md](OptionsCompiling.md) — 010 Editor Manual - Compiling Options
+- [OptionsDirectories.md](OptionsDirectories.md) — 010 Editor Manual - Directory Options
+- [OptionsEditor.md](OptionsEditor.md) — 010 Editor Manual - Editor Options
+- [OptionsFileDialogs.md](OptionsFileDialogs.md) — 010 Editor Manual - File Dialog Options
+- [OptionsFonts.md](OptionsFonts.md) — 010 Editor Manual - Font Options
+- [OptionsGeneral.md](OptionsGeneral.md) — 010 Editor Manual - General Options
+- [OptionsHexEditor.md](OptionsHexEditor.md) — 010 Editor Manual - Hex Editor Options
+- [OptionsHighlights.md](OptionsHighlights.md) — 010 Editor Manual - Highlight Options
+- [OptionsImporting.md](OptionsImporting.md) — 010 Editor Manual - Import/Export Options
+- [OptionsInspector.md](OptionsInspector.md) — 010 Editor Manual - Inspector/Tables Options
+- [OptionsInterfaces.md](OptionsInterfaces.md) — 010 Editor Manual - Edit As Options
+- [OptionsKeyboard.md](OptionsKeyboard.md) — 010 Editor Manual - Shortcut Options
+- [OptionsMenus.md](OptionsMenus.md) — 010 Editor Manual - Menu Options
+- [OptionsOpening.md](OptionsOpening.md) — 010 Editor Manual - Opening Files/Tabs Options
+- [OptionsPermissions.md](OptionsPermissions.md) — 010 Editor Manual - Permission Options
+- [OptionsPrograms.md](OptionsPrograms.md) — 010 Editor Manual - Program Options
+- [OptionsRepository.md](OptionsRepository.md) — 010 Editor Manual - Repository Options
+- [OptionsScripts.md](OptionsScripts.md) — 010 Editor Manual - Script Options
+- [OptionsSyntax.md](OptionsSyntax.md) — 010 Editor Manual - Syntax Options
+- [OptionsTemplates.md](OptionsTemplates.md) — 010 Editor Manual - Template Options
+- [OptionsTextEditor.md](OptionsTextEditor.md) — 010 Editor Manual - Text Editor Options
+- [OptionsToolbars.md](OptionsToolbars.md) — 010 Editor Manual - Toolbar Options
+- [OptionsWorkspace.md](OptionsWorkspace.md) — 010 Editor Manual - Workspace Options
+- [PageSetup.md](PageSetup.md) — 010 Editor Manual - Page Setup
+- [PasteSpecial.md](PasteSpecial.md) — 010 Editor Manual - Using Paste Special
+- [Portable.md](Portable.md) — 010 Editor Manual - Using the Portable Version
+- [Preprocessor.md](Preprocessor.md) — 010 Editor Manual - Preprocessor
+- [PreviousVersions.md](PreviousVersions.md) — 010 Editor Manual - Notes for Users of 010 Editor v10
+- [Printing.md](Printing.md) — 010 Editor Manual - Printing
+- [PrintPreview.md](PrintPreview.md) — 010 Editor Manual - Print Preview
+- [Project.md](Project.md) — 010 Editor Manual - Using Projects and Workspaces
+- [Properties.md](Properties.md) — 010 Editor Manual - File Properties
+- [RegularExpressions.md](RegularExpressions.md) — 010 Editor Manual - Using Regular Expressions
+- [ReleaseNotes.md](ReleaseNotes.md) — 010 Editor Manual - Release Notes
+- [Replace.md](Replace.md) — 010 Editor Manual - Using Replace
+- [ReplaceInFiles.md](ReplaceInFiles.md) — 010 Editor Manual - Using Replace in Files
+- [RepositoryDialog.md](RepositoryDialog.md) — 010 Editor Manual - Using the Repository Dialog
+- [RepositoryIntro.md](RepositoryIntro.md) — 010 Editor Manual - Introduction to the Repository
+- [RepositoryMenu.md](RepositoryMenu.md) — 010 Editor Manual - Using the Repository Menu
+- [RepositoryMerge.md](RepositoryMerge.md) — 010 Editor Manual - Updating and Merging Files
+- [RepositoryOpen.md](RepositoryOpen.md) — 010 Editor Manual - Installing Files on Open from the Repository
+- [RepositorySubmit.md](RepositorySubmit.md) — 010 Editor Manual - Submitting Files to the Repository
+- [RepositoryUpdate.md](RepositoryUpdate.md) — 010 Editor Manual - Updating the Repository
+- [Running.md](Running.md) — 010 Editor Manual - Running Templates and Scripts
+- [SavingFiles.md](SavingFiles.md) — 010 Editor Manual - Saving Files
+- [ScriptDLL.md](ScriptDLL.md) — 010 Editor Manual - External (DLL) Functions
+- [ScriptVariables.md](ScriptVariables.md) — 010 Editor Manual - Declaring Script Variables
+- [SelectingBytes.md](SelectingBytes.md) — 010 Editor Manual - Selecting Bytes
+- [SelectRange.md](SelectRange.md) — 010 Editor Manual - Selecting a Range
+- [SetFileSize.md](SetFileSize.md) — 010 Editor Manual - Setting the File Size
+- [Sizeof.md](Sizeof.md) — 010 Editor Manual - Special Keywords
+- [StartupPage.md](StartupPage.md) — 010 Editor Manual - Using the Startup Page
+- [StatusBar.md](StatusBar.md) — 010 Editor Manual - Status Bar
+- [Structs.md](Structs.md) — 010 Editor Manual - Structs and Unions
+- [Support.md](Support.md) — 010 Editor Manual - How to Get Support
+- [Syntax.md](Syntax.md) — 010 Editor Manual - Syntax Highlighting
+- [Tables.md](Tables.md) — 010 Editor Manual - Using Tables
+- [TemplateLimitations.md](TemplateLimitations.md) — 010 Editor Manual - Limitations
+- [TemplateResults.md](TemplateResults.md) — 010 Editor Manual - Working with Template Results
+- [TemplateVariables.md](TemplateVariables.md) — 010 Editor Manual - Declaring Template Variables
+- [ToolBars.md](ToolBars.md) — 010 Editor Manual - Using Tool Bars
+- [Treesitter.md](Treesitter.md) — 010 Editor Manual - Using Syntaxes
+- [UsingClipboard.md](UsingClipboard.md) — 010 Editor Manual - Using the Clipboard
+- [UsingFileTabs.md](UsingFileTabs.md) — 010 Editor Manual - Using File Tabs
+- [UsingHexEditor.md](UsingHexEditor.md) — 010 Editor Manual - Using the Hex Editor
+- [UsingTextEditor.md](UsingTextEditor.md) — 010 Editor Manual - Using the Text Editor
+- [WhatsNew.md](WhatsNew.md) — 010 Editor Manual - What's New in Version 16.0?
+- [Workspace.md](Workspace.md) — 010 Editor Manual - Using the Workspace
+- [WritingSyntaxes.md](WritingSyntaxes.md) — 010 Editor Manual - Writing Template Syntaxes
+- [WritingTreesitter.md](WritingTreesitter.md) — 010 Editor Manual - Writing Tree-sitter Syntaxes
